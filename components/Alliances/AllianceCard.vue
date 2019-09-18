@@ -11,7 +11,7 @@
         </v-list-item-avatar>
 
         <v-list-item-content>
-          <h1>{{title}}</h1>
+          <h3>{{title}}</h3>
         </v-list-item-content>
       </v-list-item>
 
@@ -32,7 +32,8 @@
             v-bind:style="{ height: height}"
           ></div>
         </div>
-        {{bonus.description}}
+        <v-list-item-content>{{bonus.description}}
+          </v-list-item-content>        
       </v-list-item>
     </v-list>
     <v-card-text>
@@ -49,13 +50,6 @@
       </v-row>
       </v-container>
     </v-card-text>
-    <!-- <v-list>
-      <v-list-item>
-        <v-list-item-avatar height="80px" width="80px" v-for="unit in unit_names" v-bind:key="unit">
-          
-        </v-list-item-avatar>
-      </v-list-item>
-    </v-list>-->
   </v-card>
 </template>
 
