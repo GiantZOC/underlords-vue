@@ -103,9 +103,30 @@ export default {
         },
         {
           icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire'
+          title: 'Alliances',
+          to: '/Alliances'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Heroes',
+          to: '/Heroes'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Items',
+          to: '/Items'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Team Builder',
+          to: '/TeamBuilder'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Roller',
+          to: '/Roller'
         }
+        
       ],
       miniVariant: false,
       right: true,
