@@ -1,0 +1,56 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "firefox",
+        "request": "launch",
+        "name": "vuejs: firefox",
+        "url": "http://localhost:3000",
+        "webRoot": "${workspaceFolder}",
+        "pathMappings": [{ "url": "webpack:///src/", "path": "${webRoot}/" }]
+      },
+      {
+        "type": "chrome",
+        "request": "launch",
+        "name": "client: chrome",
+        "url": "http://localhost:3000",
+        "webRoot": "${workspaceFolder}"
+      },
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "server: nuxt",
+        "args": ["dev"],
+        "osx": {
+          "program": "${workspaceFolder}/node_modules/.bin/nuxt"
+        },
+        "linux": {
+          "program": "${workspaceFolder}/node_modules/.bin/nuxt"
+        },
+        "windows": {
+          "program": "${workspaceFolder}/node_modules/nuxt/bin/nuxt.js"
+        }
+      },
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "My Nuxt project",
+        "protocol": "inspector",
+        "program": "${workspaceRoot}/node_modules/.bin/nuxt",
+        "stopOnEntry": true,
+        "args": ["dev"],
+        "cwd": "${workspaceRoot}",
+        "sourceMaps": true,
+        "env": {
+            "NODE_ENV": "development",
+            "DEBUG": "nuxt:*,app,client"
+        }
+          }
+    ],
+    "compounds": [
+      {
+        "name": "fullstack: nuxt",
+        "configurations": ["server: nuxt", "client: chrome"]
+  }
+    ]
+  }

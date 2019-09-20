@@ -1,0 +1,217 @@
+
+        {
+    name: 'Unstable Reactor',
+    img: '/images/items/mechs_explode_psd.png',
+    description:
+      'Allied Inventors  explode on death dealing [
+                10/20/30
+            ]% of their Max Health to all enemies 1 cell away.',
+    tier: 6,
+    type: 'Alliance',
+    flavortext: "This is why I don't trust Keen merchandise. - Zenok, White Spire Fence"
+        },
+        {
+    name: 'Coordinated Assault',
+    img: '/images/items/trolls_have_aura_psd.png',
+    description: 'Troll  units give + Attack Speed to allies  cell away.',
+    tier: 6,
+    type: 'Alliance',
+    flavortext: "When a pack of Trolls decide they wanna beat you down there's not a whole helluva lot you can do about it. - Zenok, White Spire Fence"
+        },
+        {
+    name: 'Check the Bodies',
+    img: '/images/items/goblins_give_gold_psd.png',
+    description:
+      'Scrappy  units have a % chance of producing  gold when they kill an enemy.',
+    tier: 6,
+    type: 'Alliance',
+    flavortext: "I wouldn't call it distasteful, it's not like the dead can spend coin. - Zenok, White Spire Fence"
+        },
+        {
+    name: 'Forged in Battle',
+    img: '/images/items/orcs_get_hp_psd.png',
+    description:
+      'Brawny  units start the round with +[
+                25/50/75
+            ] Max Health for every unit they have killed.',
+    tier: 6,
+    type: 'Alliance',
+    flavortext: "I once asked Goodkind if she kept a list of all the people Axe has killed... she told me that's what the backpack was for. - Zenok, White Spire Fence"
+        },
+        {
+    name: 'Strange Bedfellows',
+    img: '/images/items/demonhunters_steal_demon_psd.png',
+    description:
+      'Demon Hunters  gain +[
+                30/40/50
+            ]% Pure Damage for each unique allied Demon  unit.',
+    tier: 6,
+    type: 'Alliance',
+    flavortext:
+      'In White Spire, temporary alliances are forged daily. - Zenok, White Spire Fence'
+        },
+        {
+    name: 'Retaliate',
+    img: '/images/items/naga_skin_psd.png',
+    description:
+      'Units attacking Scaled  units take [
+                30/45/60
+            ] damage/sec for 3 seconds.  This timer resets each time the Scaled  unit is attacked.',
+    tier: 6,
+    type: 'Alliance',
+    flavortext: 'Actions have consequences. - Zenok, White Spire Fence'
+        },
+        {
+    name: 'Age of Chivalry',
+    img: '/images/items/knight_absorption_psd.png',
+    description:
+      'Non-Knight units take [
+                7.5/10/12.5
+            ]% less physical damage and [
+                7.5/10/12.5
+            ]% less magical damage for each allied Knight  unit 1 cell away.',
+    tier: 6,
+    type: 'Alliance',
+    flavortext:
+      'Some people live a life of self-sacrifice and nobility... I am not one of those people. - Zenok, White Spire Fence'
+        },
+        {
+    name: 'Completing the Cycle',
+    img: '/images/items/druids_heal_over_time_psd.png',
+    description:
+      'When a Druid  dies, it heals allies 2 cells away over time for [
+                3/5/7
+            ]% health per second for 6 seconds.',
+    tier: 6,
+    type: 'Alliance',
+    flavortext:
+      'Sometimes, solace can be found in death. - Zenok, White Spire Fence'
+        },
+        {
+    name: 'Tooth and Claw',
+    img: '/images/items/beast_bleed_psd.png',
+    description:
+      'Savage  units apply a stackable [
+                7/10/13
+            ] damage/s bleed on attack.',
+    tier: 6,
+    type: 'Alliance',
+    flavortext: "Those wounds don't look too pretty, buddy. - Zenok, White Spire Fence"
+        },
+        {
+    name: 'Unstoppable',
+    img: '/images/items/warriors_never_die_psd.png',
+    description:
+      'Warriors  survive for an extra [
+                1/2/3
+            ] seconds after receiving a killing blow.',
+    tier: 6,
+    type: 'Alliance',
+    flavortext:
+      'Not even death is enough to stop the most stalwart of warriors. - Zenok, White Spire Fence'
+        },
+        {
+    name: 'Wicked Intent',
+    img: '/images/items/undeads_stop_healing_psd.png',
+    description: "Opponent's healing is reduced by [10/15/25]% per unique Heartless  unit you have.",
+    tier: 6,
+    type: 'Alliance',
+    flavortext:
+      'Some people just enjoy making others suffer. - Zenok, White Spire Fence'
+        },
+        {
+    name: "Dragon's Hoard",
+    img: '/images/items/dragons_hoard_psd.png',
+    description:
+      'Dragon  units gain [
+                0.5/1/1.5
+            ]% Attack damage for every gold you own at the beginning of combat.',
+    tier: 6,
+    type: 'Alliance',
+    flavortext: "I don't know much about Dragons, but I know enough to realize that if a Dragon has a treasure horde, it probably means they ate a lot of people to get it. - Zenok, White Spire Fence"
+        },
+        {
+    name: 'Final Flash',
+    img: '/images/items/mages_ghost_psd.png',
+    description:
+      'Mages  reset their cooldown and get full mana when below [
+                10/20/30
+            ]% health.',
+    tier: 6,
+    type: 'Alliance',
+    flavortext:
+      'Mages always have one last trick up their sleeve. - Zenok, White Spire Fence'
+        },
+        {
+    name: 'Font of Creation',
+    img: '/images/items/eidolons_psd.png',
+    description: "Primordial  units spawn a rank [1/2/3] Eidolon on death. Eidolons are ranged Primordial  units that don't spawn Eidolons.",
+    tier: 6,
+    type: 'Alliance',
+    flavortext:
+      'For some, death is only the beginning... - Zenok, White Spire Fence'
+        },
+        {
+    name: "Hunter's Focus",
+    img: '/images/items/hunters_band_psd.png',
+    description:
+      'Hunters  deal [
+                5/7/10
+            ]% extra Attack Damage for each other Hunters  attacking the same target.',
+    tier: 6,
+    type: 'Alliance',
+    flavortext: "I've seen a pack of Centaur hunters bring down a Thunderhide with ease. - Zenok, White Spire Fence"
+        },
+        {
+    name: 'Soul Sucking Syphon',
+    img: '/images/items/warlocks_lifesteal_psd.png',
+    description:
+      'Allied units 1 cell away from Warlocks  heal for [
+                25/35/50
+            ]% of all damage caused by abilities and items.',
+    tier: 6,
+    type: 'Alliance',
+    flavortext: "Not gonna lie, this one's a little weird. - Zenok, White Spire Fence"
+        },
+        {
+    name: 'Indomitable Will',
+    img: '/images/items/humans_debuff_resist_psd.png',
+    description: 'Debuffs last [
+                25/50/75
+            ]% less on Human  units.',
+    tier: 6,
+    type: 'Alliance',
+    flavortext: "Ahhh there's that famous human spirit. - Zenok, White Spire Fence"
+        },
+        {
+    name: 'Elusive Targets',
+    img: '/images/items/elves_start_invisible_psd.png',
+    description:
+      'Elusive  units have 100% evasion for the first [
+                2/3/4
+            ] seconds of a battle.',
+    tier: 6,
+    type: 'Alliance',
+    flavortext: "It's hard to stab what you can't see. - Zenok, White Spire Fence"
+        },
+        {
+    name: 'Pocket Sand',
+    img: '/images/items/assassins_blind_psd.png',
+    description:
+      'Assassins  blind enemies 1 cell away from where they land for  seconds (% miss chance and % less mana when attacked).',
+    tier: 6,
+    type: 'Alliance',
+    flavortext: "Quiet doesn't fight fair, she fights to win. - Zenok, White Spire Fence"
+        },
+        {
+    name: 'Shaman Pluck',
+    img: '/images/items/shamans_hex_attackers_psd.png',
+    description:
+      'Units attacking a Shaman  have a [
+                7/12/17
+            ]% chance of being turned into a chicken.',
+    tier: 6,
+    type: 'Alliance',
+    flavortext:
+      'You should have seen what happened to the last guy who crossed Enno. - Zenok, White Spire Fence'
+        }

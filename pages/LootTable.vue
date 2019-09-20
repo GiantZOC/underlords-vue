@@ -1,14 +1,14 @@
 <template>
-  <ItemTable></ItemTable>
+  <LootTable></LootTable>
 </template>
 
 <script>
-import ItemTable from '~/components/ItemTable.vue'
+import LootTable from '~/components/LootTable.vue'
 
 export default {
   name: 'Items',
   components: {
-    ItemTable
+    LootTable
   },    
 }
 </script>

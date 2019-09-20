@@ -118,6 +118,11 @@ export default {
         },
         {
           icon: 'mdi-chart-bubble',
+          title: 'Loot Table',
+          to: '/LootTable'
+        },
+        {
+          icon: 'mdi-chart-bubble',
           title: 'Team Builder',
           to: '/TeamBuilder'
         },

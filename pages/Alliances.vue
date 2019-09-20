@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import AllianceCard from '~/components/Alliances/AllianceCard.vue'
+import AllianceCard from '~/components/AllianceCard.vue'
 
 export default {
   name: 'Alliances',
