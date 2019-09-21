@@ -49,7 +49,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/abaddon_full.png",
-        "Ability_Image": "/images/alliances/undead.png",
+        "Ability_Image": "/images/spellicons/abaddon_aphotic_shield_png.png",
         "Ability": "Aphotic Shield",
         "Description": "Abaddon protects a friendly unit with a shield that absorbs [100/300/600] damage for 10 seconds.  When the shield is destroyed it bursts and deals [100/300/600] damage to enemies up to 2 cells away.  Removes certain types of negative buffs and stuns on cast.",
         "Lore_Text": "I have much respect for the House of Avernus. - In which O'nia courts favor"
@@ -86,7 +86,7 @@ export default {
         "Tier_2_Health_Regen": "2",
         "Tier_3_Health_Regen": "4",
         "Hero_Image": "/images/heroes/alchemist_full.png",
-        "Ability_Image": "/images/alliances/goblin.png",
+        "Ability_Image": "/images/spellicons/alchemist_acid_spray_png.png",
         "Ability": "Acid Spray",
         "Description": "Alchemist sprays high-pressure acid, affecting enemies up to 3 cells away from the target.  Enemy units who step across the contaminated terrain take [15/25/35] damage per second and have their armor reduced by [-5/-8/-11].",
         "Lore_Text": "You like burning people's faces, I like burning people's homes... it's a match made in heaven. - In which Hobgen bridges a cultural gap"
@@ -123,7 +123,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/antimage_full.png",
-        "Ability_Image": "/images/alliances/elf.png",
+        "Ability_Image": "/images/spellicons/antimage_mana_break_png.png",
         "Ability": "Mana Break",
         "Description": "PASSIVE: The Anti-Mage burns [30/60/90] of the opponent's mana on each attack, dealing 50% of the mana burned as damage to the target.",
         "Lore_Text": "The Anti-Mage has come for me... and I will be ready. - Turath, Tyler Estate Fugitive"
@@ -160,7 +160,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/arc_warden_full.png",
-        "Ability_Image": "/images/alliances/primordial.png",
+        "Ability_Image": "/images/spellicons/arc_warden_tempest_double_png.png",
         "Ability": "Tempest Double",
         "Description": "Arc Warden creates a copy of himself with the same health he currently has.  The duplicate can use all of Arc Warden's current items and will attempt to attack the same enemy as his summoner. Clones cannot create Clones.",
         "Lore_Text": "He brings with him the mysteries of creation. - Turath, Cryptic Prophet"
@@ -197,7 +197,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/axe_full.png",
-        "Ability_Image": "/images/alliances/brawny.png",
+        "Ability_Image": "/images/spellicons/axe_berserkers_call_png.png",
         "Ability": "Berserker's Call",
         "Description": "Axe taunts enemy units 1 cell away, forcing them to attack him.  While Berserker’s Call is active, Axe gains [15/25/35] bonus armor.",
         "Lore_Text": "Getting Axe's help is easy... all you need is beer and the promise of a good story he'll be able to tell. - Wren, Rallying Rebel"
@@ -234,7 +234,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/batrider_full.png",
-        "Ability_Image": "/images/alliances/troll.png",
+        "Ability_Image": "/images/spellicons/batrider_sticky_napalm_png.png",
         "Ability": "Sticky Napalm",
         "Description": "Batrider throws sticky oil, coating the ground 2 cells away from point of impact.  The oil adds [20/40/80] damage per stack to Batrider's attacks, and slows the movement and attack speed of enemies by -5%.  Additional casts of Sticky Napalm continue to increase damage and slow percentages, up to [4/7/10] stacks.",
         "Lore_Text": "I love this guy.  LOVE HIM.  - Hobgen, Pyromaniac"
@@ -271,7 +271,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/beastmaster_full.png",
-        "Ability_Image": "/images/alliances/brawny.png",
+        "Ability_Image": "/images/spellicons/beastmaster_wild_axes_png.png",
         "Ability": "Wild Axes",
         "Description": "Beastmaster sends his axes flying and calls them home again, slicing through enemy units along their path for [60/100/140] damage.  Each axe can hit an enemy once, and amplifies subsequent damage from Beastmaster by [10/20/30]%.",
         "Lore_Text": "How many of these tree huggers are going to bat for that little runt? - In which Grek complains about Enno"
@@ -308,7 +308,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/bloodseeker_full.png",
-        "Ability_Image": "/images/alliances/human.png",
+        "Ability_Image": "/images/spellicons/bloodseeker_blood_rage_png.png",
         "Ability": "Bloodrage",
         "Description": "PASSIVE: Every second Bloodseeker takes damage equal to 7% of his max health.  For every % of health missing, he gains 5% attack speed.  On a kill, he regains 35% of his max health.",
         "Lore_Text": "If I've learned one thing in my career, it's that folks love blood.  Hire this man.  - Grek, Decisive Promoter"
@@ -345,7 +345,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/bounty_hunter_full.png",
-        "Ability_Image": "/images/alliances/goblin.png",
+        "Ability_Image": "/images/spellicons/bounty_hunter_shuriken_toss_png.png",
         "Ability": "Shuriken Toss",
         "Description": "Bounty Hunter hurls a deadly shuriken at an enemy unit, dealing [300/500/700] damage and mini-stunning the target.",
         "Lore_Text": "So long as you have the money, always trust a man whose loyalty is for sale. - O'nia, Questionable Wisdom"
@@ -382,7 +382,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/chaos_knight_full.png",
-        "Ability_Image": "/images/alliances/demon.png",
+        "Ability_Image": "/images/spellicons/chaos_knight_chaos_bolt_png.png",
         "Ability": "Chaos Bolt",
         "Description": "Chaos Knight throws a mysterious bolt of energy that stuns an enemy unit for a random duration as well as dealing a random amount of damage.",
         "Lore_Text": "White Spire could do well with a little chaos. - Hobgen, Agent of Chaos"
@@ -413,13 +413,13 @@ export default {
         "Tier_2_Magic_Resist": "0",
         "Tier_3_Magic_Resist": "0",
         "Tier_1_Armor": "10",
-        "Tier_3_Armor": "13",
+        "Tier_2_Armor": "13",
         "Tier_3_Armor": "15",
         "Tier_1_Health_Regen": "0",
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
-        "Hero_Image": "/images/heroes/rattletrap_full.png",
-        "Ability_Image": "/images/alliances/goblin.png",
+        "Hero_Image": "/images/heroes/clockwerk_full.png",
+        "Ability_Image": "/images/spellicons/clockwerk_battery_assault_png.png",
         "Ability": "Battery Assault",
         "Description": "Clockwerk discharges high-powered shrapnel at random enemy units 1 cell away for 5 seconds, dealing [50/75/100] magical damage and mini-stunning them.",
         "Lore_Text": "The Brass Herald would call you an abomination, but I think you're rather clever, little Keen. - Quiet, Heretical Automaton"
@@ -456,7 +456,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/crystal_maiden_full.png",
-        "Ability_Image": "/images/alliances/human.png",
+        "Ability_Image": "/images/spellicons/crystal_maiden_brilliance_aura_png.png",
         "Ability": "Arcane Aura",
         "Description": "PASSIVE: Every 2 seconds, Crystal Maiden grants [8/14/20] mana to all friendly units.",
         "Lore_Text": "Find out if she's here for me or Turath. - Jull, Icewrack Bootlegger"
@@ -493,10 +493,12 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/disruptor_full.png",
-        "Ability_Image": "/images/alliances/brawny.png",
-        "Ability": "",
-        "Description": "undefined",
-        "Lore_Text": "undefined"
+        "Ability_Image": "/images/spellicons/disruptor_static_storm_png.png",
+        "Ability": "Static Storm",
+        "Description": "Disruptor creates a damaging static storm that silences and blinds (25%) all enemy units up to 2 cells away from the center for [3/4/5] seconds.  The damage starts off weak but ramps up, doing a total of [115/250/425] over the duration of the storm. ",
+        "Lore_Text": "undefined",
+        "Ace_Ability": "Ace of Warlocks",
+        "Ace_Description": "The effect of the Warlocks is now applied to 1 target per Alliance level.  +15% chance of finding if you have at least one level of the Warlock Alliance completed.",
     },
     {
         "Name": "Doom",
@@ -530,7 +532,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/doom_bringer_full.png",
-        "Ability_Image": "/images/alliances/demon.png",
+        "Ability_Image": "/images/spellicons/doom_bringer_doom_png.png",
         "Ability": "Doom",
         "Description": "Doom invokes a powerful curse that prevents an enemy from casting spells or using items or using passive bonuses, while also taking [60/90/120] damage per second.  Lasts 20 seconds.",
         "Lore_Text": "I prefer to make my deals with metaphorical demons... - In which O'nia opines on Anessix's allies"
@@ -567,7 +569,7 @@ export default {
         "Tier_2_Health_Regen": "10",
         "Tier_3_Health_Regen": "10",
         "Hero_Image": "/images/heroes/dragon_knight_full.png",
-        "Ability_Image": "/images/alliances/human.png",
+        "Ability_Image": "/images/spellicons/dragon_knight_breathe_fire_png.png",
         "Ability": "Breathe Fire",
         "Description": "Unleashes a breath of fire in front of Dragon Knight that burns enemies for [200/350/500] damage and reduces the damage their attacks deal by [25/40/55] for 6 seconds.",
         "Lore_Text": "Davion, your talents are being wasted on someone who doesn't appreciate the beauty of what you do. - In which Hobgen tries to poach talent"
@@ -604,7 +606,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/drow_ranger_full.png",
-        "Ability_Image": "/images/alliances/undead.png",
+        "Ability_Image": "/images/spellicons/drow_ranger_trueshot_aura_png.png",
         "Ability": "Precision Aura",
         "Description": "PASSIVE: Drow Ranger adds a [10/20/30]% bonus to attack speed to all allies 1 cell away.",
         "Lore_Text": "Traxex.  You and me are gonna go to the top.  Trust me. - Grek, Snake Oil Salesman"
@@ -641,7 +643,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/enchantress_full.png",
-        "Ability_Image": "/images/alliances/savage.png",
+        "Ability_Image": "/images/spellicons/enchantress_natures_attendants_png.png",
         "Ability": "Nature's Attendants",
         "Description": "Enchantress summons a cloud of [3/5/7] wisps that heal all allies up to 4 cells away.  For 11 seconds, allies heal 25 health every 1.5 seconds.",
         "Lore_Text": "She won't last a day in White Spire.  Not. A. Day. - In which Hobgen underestimates his adversary"
@@ -678,10 +680,12 @@ export default {
         "Tier_2_Health_Regen": "5",
         "Tier_3_Health_Regen": "5",
         "Hero_Image": "/images/heroes/enigma_full.png",
-        "Ability_Image": "/images/alliances/primordial.png",
-        "Ability": "",
-        "Description": "undefined",
-        "Lore_Text": "undefined"
+        "Ability_Image": "/images/spellicons/enigma_midnight_pulse_png.png",
+        "Ability": "Midnight Pulse",
+        "Description": "Enigma steeps an area in dark resonance, dealing [5/7/9]% of an enemy's max health for 10 seconds to all enemy units up to [1/2/3] cells away. ",
+        "Lore_Text": "undefined",
+        "Ace_Ability": "Ace of Shamans",
+        "Ace_Description": "Enemies affected by Hexes, Silences or Stuns will not generate mana while attacked.  +15% chance of finding if you have at least one level of the Shaman Alliance completed.",
     },
     {
         "Name": "Gyrocopter",
@@ -715,10 +719,12 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/gyrocopter_full.png",
-        "Ability_Image": "/images/alliances/dwarf.png",
-        "Ability": "",
-        "Description": "undefined",
-        "Lore_Text": "undefined"
+        "Ability_Image": "/images/spellicons/gyrocopter_call_down_png.png",
+        "Ability": "Call Down",
+        "Description": "Gyrocopter launches a missile strike, hitting all enemies up to 3 cells away from point of impact.  Two missiles arrive in succession, the first dealing [200/300/400] damage and 30% slow for 2 seconds; the final one deals [200/300/400] damage and 60% slow for 4 seconds. ",
+        "Lore_Text": "undefined",
+        "Ace_Ability": "Ace of Deadeyes",
+        "Ace_Description": "Grants Deadeye units True Strike. Units with True Strike cannot miss.  +15% chance of finding if you have at least one level of the Deadeye Alliance completed. "
     },
     {
         "Name": "Juggernaut",
@@ -752,7 +758,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/juggernaut_full.png",
-        "Ability_Image": "/images/alliances/brawny.png",
+        "Ability_Image": "/images/spellicons/juggernaut_blade_fury_png.png",
         "Ability": "Blade Fury",
         "Description": "When surrounded by 2 or more enemies, Juggernaut spins with his blade, rendering him immune to magic and dealing [50/100/150] damage per second to enemy units 1 cell away for 5 seconds.",
         "Lore_Text": "Yurnero isn't just a warrior.  He's a Juggernaut.  If we get him on our side, we'll be stacking bodies in no time. - In which Grek looks at all the angles"
@@ -789,7 +795,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/keeper_of_the_light_full.png",
-        "Ability_Image": "/images/alliances/human.png",
+        "Ability_Image": "/images/spellicons/keeper_of_the_light_illuminate_png.png",
         "Ability": "Illuminate",
         "Description": "The Keeper of the Light channels energy, building power the longer it's channeled.  Once released, a wave is sent forth that deals [150/200/250] damage per second channeled.",
         "Lore_Text": "The Keeper is more powerful than he lets on, if left unchecked he'll be the end of us all. - Turath, Destroyer of Light "
@@ -826,7 +832,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/kunkka_full.png",
-        "Ability_Image": "/images/alliances/human.png",
+        "Ability_Image": "/images/spellicons/kunkka_ghostship_png.png",
         "Ability": "Ghostship",
         "Description": "Kunkka summons a ghostly ship that sails through the battle before smashing apart, dealing [50/150/250] damage and stunning all enemies up to [2/2/3] cells away from the wreckage for [1.4/1.7/2] seconds.",
         "Lore_Text": "Momma Eeb had a lot of friends... Kunkka wants answers as much as I do. - Wren, Avenging Daughter"
@@ -863,10 +869,12 @@ export default {
         "Tier_2_Health_Regen": "5",
         "Tier_3_Health_Regen": "5",
         "Hero_Image": "/images/heroes/lich_full.png",
-        "Ability_Image": "/images/alliances/undead.png",
-        "Ability": "",
-        "Description": "undefined",
-        "Lore_Text": "undefined"
+        "Ability_Image": "/images/spellicons/lich_chain_frost_png.png",
+        "Ability": "Chain Frost",
+        "Description": "Lich releases an orb of frost that bounces between nearby enemy units up to [6/9/12] times, slowing their attack and movement speed by -65% for 2.5 seconds and dealing [200/300/400] damage each time it hits. ",
+        "Lore_Text": "undefined",
+        "Ace_Ability": "Ace of Mages",
+        "Ace_Description": "Your army's mana generation from attacks is increased 10% per Mage Alliance level.  +15% chance of finding if you have at least one level of the Mage Alliance completed."
     },
     {
         "Name": "Lina",
@@ -900,7 +908,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/lina_full.png",
-        "Ability_Image": "/images/alliances/human.png",
+        "Ability_Image": "/images/spellicons/lina_laguna_blade_png.png",
         "Ability": "Laguna Blade",
         "Description": "Lina unleashes a bolt of lightning, dealing [500/750/1200] damage to a single unit.",
         "Lore_Text": "It wasn't a tough sell getting Lina to White Spire, we're both fans of each other's work. - Hobgen, Professional Arsonist"
@@ -937,7 +945,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/lone_druid_full.png",
-        "Ability_Image": "/images/alliances/savage.png",
+        "Ability_Image": "/images/spellicons/lone_druid_summon_bear_png.png",
         "Ability": "Summon Spirit Bear",
         "Description": "Summons a powerful Spirit Bear companion.",
         "Lore_Text": "Just keep the bear away from me, alright?  I don't do bears. - Grek, Arkoudaphobic"
@@ -974,7 +982,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/luna_full.png",
-        "Ability_Image": "/images/alliances/elf.png",
+        "Ability_Image": "/images/spellicons/luna_moon_glaive_png.png",
         "Ability": "Moon Glaives",
         "Description": "PASSIVE: Luna's glaives bounce between enemies 2 cells away.  Glaives deal 30% less damage with each bounce.",
         "Lore_Text": "I can't understand half of what you're sayin', but I like the way you throw those things. - Grek, People Person"
@@ -1011,7 +1019,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/lycan_full.png",
-        "Ability_Image": "/images/alliances/human.png",
+        "Ability_Image": "/images/spellicons/lycan_wolf_spawn_shift_png.png",
         "Ability": "Summon Wolves",
         "Description": "Lycan summons two wolves to fight alongside him.  Lycan then transforms and gains [30/40/50]% to his max health, his Move_Speed is boosted to 650 and gains 40% chance to critically attack for [150/175/200]% bonus damage.",
         "Lore_Text": "Please Lycan, help me get revenge. - In which Wren appeals to Lycan's humanity"
@@ -1048,10 +1056,12 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/medusa_full.png",
-        "Ability_Image": "/images/alliances/naga.png",
-        "Ability": "",
-        "Description": "undefined",
-        "Lore_Text": "undefined"
+        "Ability_Image": "/images/spellicons/medusa_split_shot_png.png",
+        "Ability": "Stone Gaze",
+        "Description": "Any enemy unit up to 3 cells away looking at Medusa will have their movement and attack speed slowed by 30%.  If 2 seconds of total time is accumulated looking at Medusa, that unit will turn to stone. Petrified units are stunned, and take bonus 20% physical damage. ",
+        "Lore_Text": "undefined",
+        "Ace_Ability": "Ace of Scaled",
+        "Ace_Description": "Grants Scaled units Retaliate. When a unit with Retaliate is attacked, they apply a 25 dmg/sec per Alliance level debuff to their attacker.  +15% chance of finding if you have at least one level of the Scaled Alliance completed.",
     },
     {
         "Name": "Mirana",
@@ -1085,7 +1095,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/mirana_full.png",
-        "Ability_Image": "/images/alliances/elf.png",
+        "Ability_Image": "/images/spellicons/mirana_arrow_png.png",
         "Ability": "Sacred Arrow",
         "Description": "Mirana fires a long-range arrow with deadly precision, stunning her target for [3/5/7] seconds and dealing [400/800/1800] damage.",
         "Lore_Text": "Never trust a zealot Wren, it's not worth it. - In which Jull gives friendly advice"
@@ -1122,7 +1132,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/morphling_full.png",
-        "Ability_Image": "/images/alliances/primordial.png",
+        "Ability_Image": "/images/spellicons/morphling_waveform_png.png",
         "Ability": "Waveform",
         "Description": "Morphling dissolves into liquid and surges forward, damaging enemy units in his path for [150/250/350] damage.  Morphling is invulnerable during Waveform.",
         "Lore_Text": "Turath's Ability to court favor with the likes of Morphling is...troubling. - Quiet, Clockwork Conspirator"
@@ -1158,8 +1168,8 @@ export default {
         "Tier_1_Health_Regen": "0",
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
-        "Hero_Image": "/images/heroes/furion_full.png",
-        "Ability_Image": "/images/alliances/elf.png",
+        "Hero_Image": "/images/heroes/natures_prophet_full.png",
+        "Ability_Image": "/images/spellicons/natures_prophet_summon_tree_png.png",
         "Ability": "Nature's Call",
         "Description": "Nature's Prophet summons a Treant. This Treant is considered a druid.",
         "Lore_Text": "Enno has reached out to his little forest friends... this could be a problem. - O'nia, Banished Merchant of Revtel"
@@ -1195,8 +1205,8 @@ export default {
         "Tier_1_Health_Regen": "0",
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
-        "Hero_Image": "/images/heroes/necrolyte_full.png",
-        "Ability_Image": "/images/alliances/undead.png",
+        "Hero_Image": "/images/heroes/necrophos_full.png",
+        "Ability_Image": "/images/spellicons/necrophos_death_pulse_png.png",
         "Ability": "Death Pulse",
         "Description": "Necrophos releases a wave of death around him affecting enemy and friendly units up to 3 cells away.  Death Pulse deals [100/150/200] damage to enemies and heals allies for [100/175/250].",
         "Lore_Text": "Come now, Necrophos, there has to be something you want... - Anessix, Silver Tongued Devil"
@@ -1233,7 +1243,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/ogre_magi_full.png",
-        "Ability_Image": "/images/alliances/ogre.png",
+        "Ability_Image": "/images/spellicons/ogre_magi_bloodlust_png.png",
         "Ability": "Bloodlust",
         "Description": "Ogre Magi incites a frenzy in a friendly unit, increasing its movement speed by [8/10/12]% and attack speed by [30/65/100]%. If cast on Ogre Magi himself, the attack speed bonus is [50/90/130]% instead.",
         "Lore_Text": "The Magi is worth twice what he charges.  Fortunately the Magi is also an idiot. - O'nia, Bargain Hunter"
@@ -1270,7 +1280,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/omniknight_full.png",
-        "Ability_Image": "/images/alliances/human.png",
+        "Ability_Image": "/images/spellicons/omniknight_purification_png.png",
         "Ability": "Purification",
         "Description": "Omniknight instantly heals a friendly unit for [200/400/720] and damages all enemy units 1 cell away.",
         "Lore_Text": "He wields faith as a weapon... as do I. - Turath, Delusional Savior"
@@ -1307,7 +1317,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/phantom_assassin_full.png",
-        "Ability_Image": "/images/alliances/elf.png",
+        "Ability_Image": "/images/spellicons/phantom_assassin_coup_de_grace_png.png",
         "Ability": "Coup de Grace",
         "Description": "PASSIVE: Phantom Assassin has a [15/20/25]% chance of delivering a devastating [300/450/600]% critical strike to enemy units.",
         "Lore_Text": "She assassinated Kwerthias, why shouldn't I assume she's come for me as well - O'nia, Paranoid Merchant"
@@ -1344,7 +1354,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/puck_full.png",
-        "Ability_Image": "/images/alliances/elf.png",
+        "Ability_Image": "/images/spellicons/puck_illusory_orb_png.png",
         "Ability": "Illusory Orb",
         "Description": "Puck launches a magic orb that floats in a straight path, damaging enemy units along the way for [150/200/250] damage.",
         "Lore_Text": "Don't let the way he looks fool you, Puck is a right bastard. - In which Hobgen gives some words of wisdom"
@@ -1381,7 +1391,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/pudge_full.png",
-        "Ability_Image": "/images/alliances/undead.png",
+        "Ability_Image": "/images/spellicons/pudge_meathook_png.png",
         "Ability": "Meat Hook",
         "Description": "Pudge launches a bloody hook towards his farthest enemy, dragging the victim back and dealing [150/220/290] damage.  Pudge and allies 1 cell away will direct their attacks to the victim until it dies.",
         "Lore_Text": "Pudge? Oh, he's just swell.  Always says hi when I'm tanning the bodies. - Carl, Undead Tailor"
@@ -1418,7 +1428,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/queenofpain_full.png",
-        "Ability_Image": "/images/alliances/demon.png",
+        "Ability_Image": "/images/spellicons/queenofpain_scream_of_pain_png.png",
         "Ability": "Scream Of Pain",
         "Description": "The Queen of Pain lets loose a piercing scream around her, damaging all enemies up to 3 cells away for [200/300/400] damage.",
         "Lore_Text": "Akasha may not be a close friend, but she'll gladly help me out if she thinks she can lord it over me later. - Anessix, Pragmatic Demon"
@@ -1455,7 +1465,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/razor_full.png",
-        "Ability_Image": "/images/alliances/primordial.png",
+        "Ability_Image": "/images/spellicons/razor_plasma_field_png.png",
         "Ability": "Plasma Field",
         "Description": "Razor releases a ring of plasma that grows in power as it expands, but also zaps on contraction, slowing and dealing up to [50/100/150] to damage to enemy units up to 3 cells away.  Damage and slow increases with distance from Razor.  The Plasma Field hits each unit twice, once in each direction.",
         "Lore_Text": "If you think he's scary on the streets of White Spire, you should see what he does in the Narrow Maze. - Anessix, Sports Fan"
@@ -1492,7 +1502,7 @@ export default {
         "Tier_2_Health_Regen": "5",
         "Tier_3_Health_Regen": "5",
         "Hero_Image": "/images/heroes/sand_king_full.png",
-        "Ability_Image": "/images/alliances/savage.png",
+        "Ability_Image": "/images/spellicons/sand_king_burrowstrike_png.png",
         "Ability": "Caustic Finale",
         "Description": "PASSIVE: Whenever Sand King hits an enemy they are poisoned for 3.5 seconds. When the poison expires, it bursts for [50/100/200] damage and slows the attack speed of all enemies adjacent to the target by -35 for 1.75 seconds. Damage is halved if the target is still alive.",
         "Lore_Text": "Would it kill the guy to use a tarp? - Anessix, Pristine Infernalist"
@@ -1528,8 +1538,8 @@ export default {
         "Tier_1_Health_Regen": "0",
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
-        "Hero_Image": "/images/heroes/nevermore_full.png",
-        "Ability_Image": "/images/alliances/demon.png",
+        "Hero_Image": "/images/heroes/shadow_fiend_full.png",
+        "Ability_Image": "/images/spellicons/shadow_fiend_requiem_png.png",
         "Ability": "Requiem of Souls",
         "Description": "Shadow Fiend channels the souls of the damned and unleashes demonic energy all around him, dealing [100/175/250] damage to anyone caught in the blast.",
         "Lore_Text": "The Court of Ristul and I have an... understanding. - Anessix, Earthbound Demon"
@@ -1566,7 +1576,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/shadow_shaman_full.png",
-        "Ability_Image": "/images/alliances/troll.png",
+        "Ability_Image": "/images/spellicons/shadow_shaman_voodoo_png.png",
         "Ability": "Hex",
         "Description": "Shadow Shaman transforms an enemy unit into a harmless creature, disabling their attacks and abilities for [4/6/8] seconds.",
         "Lore_Text": "Now that guy knows how to put on a show! - In which Grek shows professional courtesy"
@@ -1603,7 +1613,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/slardar_full.png",
-        "Ability_Image": "/images/alliances/naga.png",
+        "Ability_Image": "/images/spellicons/slardar_amplify_damage_png.png",
         "Ability": "Corrosive Haze",
         "Description": "Slardar modifies enemy armor by [-15/-30/-45] for 20 seconds.",
         "Lore_Text": "Slark and I were able to do business, surely we can reach an agreement as well. - Jull, Pruno Aficionado"
@@ -1640,7 +1650,7 @@ export default {
         "Tier_2_Health_Regen": "5",
         "Tier_3_Health_Regen": "5",
         "Hero_Image": "/images/heroes/slark_full.png",
-        "Ability_Image": "/images/alliances/naga.png",
+        "Ability_Image": "/images/spellicons/slark_pounce_png.png",
         "Ability": "Pounce",
         "Description": "PASSIVE: After landing from a leap, Slark disarms his target for 3 seconds.",
         "Lore_Text": "How did he get the drop on us again!? - Hobgen, Fiery Temper"
@@ -1677,7 +1687,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/sniper_full.png",
-        "Ability_Image": "/images/alliances/goblin.png",
+        "Ability_Image": "/images/spellicons/sniper_assassinate_png.png",
         "Ability": "Assassinate",
         "Description": "Sniper takes aim at an enemy unit for 2 seconds, then fires a devastating shot that deals [1000/2000/3000] damage and mini-stuns the target.",
         "Lore_Text": "Ya know I used to have a Keen act open my show.  Great for audiences, bad for liAbility insurance. - Grek, Focused on the Bottom Line"
@@ -1714,9 +1724,9 @@ export default {
         "Tier_2_Health_Regen": "5",
         "Tier_3_Health_Regen": "5",
         "Hero_Image": "/images/heroes/techies_full.png",
-        "Ability_Image": "/images/alliances/goblin.png",
-        "Ability": "",
-        "Description": "undefined",
+        "Ability_Image": "/images/spellicons/techies_bomb_png.png",
+        "Ability": "Remote Mines",
+        "Description": "The gang plants an explosive that detonates after 3 seconds and deals [700/1100/1500] damage to targets [3/3/4] cells away.  Does half-damage to enemies half the max distance away.",
         "Lore_Text": "undefined"
     },
     {
@@ -1751,7 +1761,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/templar_assassin_full.png",
-        "Ability_Image": "/images/alliances/elf.png",
+        "Ability_Image": "/images/spellicons/templar_assassin_refraction_png.png",
         "Ability": "Refraction",
         "Description": "Templar Assassin becomes elusive, avoiding damage and gaining [40/60/80]% bonus to her damage.  The damage and avoidance effects are separate, and have [4/6/8] instances each.",
         "Lore_Text": "If you help me, our debt is settled. - In which Wren gets all the help she can get"
@@ -1788,7 +1798,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/terrorblade_full.png",
-        "Ability_Image": "/images/alliances/demon.png",
+        "Ability_Image": "/images/spellicons/terrorblade_metamorph_png.png",
         "Ability": "Metamorphosis",
         "Description": "Terrorblade transforms into a powerful demon, gaining a ranged attack of 4 cells as well as [50/100/200] bonus to damage and [50/75/100] to attack speed. Terrorblade also exchanges health values with another ally when this Ability starts.",
         "Lore_Text": "When you see that one talking with Anessix, you know something bad is about to happen. - Jull, People Watcher"
@@ -1825,7 +1835,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/tidehunter_full.png",
-        "Ability_Image": "/images/alliances/naga.png",
+        "Ability_Image": "/images/spellicons/tidehunter_ravage_png.png",
         "Ability": "Ravage",
         "Description": "Tidehunter slams the ground, causing tentacles to erupt in all directions, dealing [100/150/250] damage and stunning all enemy units [1/2/3] cells away for [2/2.25/3] seconds.",
         "Lore_Text": "Kunkka, I liked you more when you weren't being hunted by a Leviathan. - Wren, Fair-Weather Friend"
@@ -1862,7 +1872,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/shredder_full.png",
-        "Ability_Image": "/images/alliances/goblin.png",
+        "Ability_Image": "/images/spellicons/timbersaw_whirling_death_png.png",
         "Ability": "Whirling Death",
         "Description": "The sharp edges of Timbersaw's suit of armor whirl about, damaging enemies up to 2 cells away for [150/200/250] damage.",
         "Lore_Text": "I figured Enno was calling in all his woodland friends, so I went and made a call of my own. - In which Hobgen engages in problem solving"
@@ -1899,7 +1909,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/tinker_full.png",
-        "Ability_Image": "/images/alliances/goblin.png",
+        "Ability_Image": "/images/spellicons/tinker_heat_seeking_missile_png.png",
         "Ability": "Heat-Seeking Missile",
         "Description": "Tinker fires a salvo of rockets at [2/3/4] random enemies dealing [350/450/450] damage on impact.",
         "Lore_Text": "The Society of Likeminded Keenfolk will be a problem if they go unchecked. - In which O'nia tries to form a unified front"
@@ -1936,7 +1946,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/tiny_full.png",
-        "Ability_Image": "/images/alliances/primordial.png",
+        "Ability_Image": "/images/spellicons/tiny_toss_png.png",
         "Ability": "Toss",
         "Description": "Tiny picks up a random adjacent enemy, and launches it at the farthest enemy target.  At impact, the target deals [100/200/300] damage to all enemies 1 cell away and stuns them for [1.5/2/2.5] seconds.",
         "Lore_Text": "Looks like Enno found himself some muscle. - In which Grek encounters a big problem"
@@ -1973,7 +1983,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/treant_full.png",
-        "Ability_Image": "/images/alliances/elf.png",
+        "Ability_Image": "/images/spellicons/treant_leech_seed_png.png",
         "Ability": "Leech Seed",
         "Description": "Treant Protector plants a life-sapping seed in an enemy unit, draining its health by [100/150/200] every 1.5 seconds, while simultaneously slowing its attack and movement speed by -50%.  The seed heals friendly units up to 1 cell away from the target. Lasts 5 seconds. Ends early if the target dies.",
         "Lore_Text": "I won't lie, I didn't expect Enno to get help from a tree. - In which Jull and Anessix share a drink"
@@ -2010,10 +2020,12 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/troll_warlord_full.png",
-        "Ability_Image": "/images/alliances/troll.png",
-        "Ability": "",
-        "Description": "undefined",
-        "Lore_Text": "undefined"
+        "Ability_Image": "/images/spellicons/troll_warlord_fervor_png.png",
+        "Ability": "Fervor",
+        "Description": "Passive: Troll Warlord rains blow after blow gaining [15/20/25]% bonus increased attack speed per stack.  If Troll changes targets, the stack drops to zero.  This effect can only stack up to [6/9/12] times.",
+        "Lore_Text": "undefined",
+        "Ace_Ability": "Ace of Trolls",
+        "Ace_Description": "Grants your units Mini-Bash: While attacking, your team has a 5% chance per Troll Alliance level of stunning their target for 0.25 seconds.  +15% chance of finding if you have at least one level of the Troll Alliance completed."
     },
     {
         "Name": "Tusk",
@@ -2047,7 +2059,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/tusk_full.png",
-        "Ability_Image": "/images/alliances/savage.png",
+        "Ability_Image": "/images/spellicons/tusk_walrus_punch_png.png",
         "Ability": "Walrus PUNCH!",
         "Description": "Tusk connects with his mighty Walrus Punch, a critical strike so powerful it launches its victim into the air. Upon landing, the victim is slowed by 40%.",
         "Lore_Text": "He was my friend once.  We'll see if he's here to help me or punch me soon enough. - In which Jull reflects on his youth"
@@ -2084,7 +2096,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/venomancer_full.png",
-        "Ability_Image": "/images/alliances/savage.png",
+        "Ability_Image": "/images/spellicons/venomancer_plague_ward_png.png",
         "Ability": "Plague Ward",
         "Description": "Venomancer summons [1/1/1] Plague Ward to fight alongside him.",
         "Lore_Text": "Your creations are beautiful to behold. Let me help you cultivate your garden... - In which Turath learns that flattery gets you everywhere"
@@ -2121,7 +2133,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/viper_full.png",
-        "Ability_Image": "/images/alliances/dragon.png",
+        "Ability_Image": "/images/spellicons/viper_corrosive_skin_png.png",
         "Ability": "Viper Strike",
         "Description": "Viper's acidic venom slows an enemy unit's movement and attack speed by [-40/-60/-80]% while also dealing [150/250/350] poison damage over time.  The slowing effect fades over the duration of the poison.",
         "Lore_Text": "We're not that different... I too, know what it means to be a slave. - Quiet, Plotting Automoton"
@@ -2158,7 +2170,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/warlock_full.png",
-        "Ability_Image": "/images/alliances/ogre.png",
+        "Ability_Image": "/images/spellicons/warlock_shadow_word_png.png",
         "Ability": "Shadow Word",
         "Description": "Warlock whispers an incantation, restoring [50/125/175] health to a friendly unit, or damaging an enemy unit for [50/100/150], every second for 3 seconds.",
         "Lore_Text": "Some secrets are meant to be kept... Demnok will pay for his lack of discretion. - Anessix, Biding Time"
@@ -2195,7 +2207,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/windrunner_full.png",
-        "Ability_Image": "/images/alliances/elf.png",
+        "Ability_Image": "/images/spellicons/windrunner_powershot_png.png",
         "Ability": "Powershot",
         "Description": "Windranger charges her bow for up to 1.5 seconds for a single powerful shot, dealing up to [200/400/600] damage. For each enemy that Powershot hits, its damage is reduced by 10%.",
         "Lore_Text": "I made a lot of friends during my travels, and I'm not afraid to call in favors. - Wren, World Traveller"
@@ -2232,7 +2244,7 @@ export default {
         "Tier_2_Health_Regen": "0",
         "Tier_3_Health_Regen": "0",
         "Hero_Image": "/images/heroes/witch_doctor_full.png",
-        "Ability_Image": "/images/alliances/troll.png",
+        "Ability_Image": "/images/spellicons/witch_doctor_paralyzing_cask_png.png",
         "Ability": "Paralyzing Cask",
         "Description": "Witch Doctor throws a cask of paralyzing powder that bounces [5/7/9] times between enemy units, stunning and dealing [50/75/100] damage to those it hits.",
         "Lore_Text": "I love watching you work, Doc... - Hobgen, Fae Mischief-Maker"

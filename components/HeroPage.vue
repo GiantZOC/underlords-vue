@@ -13,22 +13,82 @@
       </div>
     </v-img>
 
-    <v-card dark>
-      <v-list-item three-line>
-        <v-list-item-avatar size="125" tile>
-          <v-img
-            class="hero_image"
-            :src="require(`~/static${Ability_Image}`)"
-            :srcset="require(`~/static${Ability_Image}`).srcSet"
-            :lazy-src="require(`~/static${Ability_Image}`).placeholder"
-          ></v-img>
-        </v-list-item-avatar>
-
-        <v-list-item-content class="align-self-start">
-          <v-list-item-subtitle v-text="Description" class="text--primary"></v-list-item-subtitle>
-        </v-list-item-content>
-      </v-list-item>
-    </v-card>
+    <v-card-text>
+      <v-simple-table dense>
+        <template v-slot:default>
+          <thead>
+            <tr>
+              <th class="text-left">Tier</th>
+              <th class="text-left">Star 1</th>
+              <th class="text-left">Star 2</th>
+              <th class="text-left">Star 3</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Health</td>
+              <td>{{Tier_1_Health}}</td>
+              <td>{{Tier_2_Health}}</td>
+              <td>{{Tier_3_Health}}</td>
+            </tr>
+            <tr>
+              <td>Mana</td>
+              <td>{{Mana}}</td>
+              <td>{{Mana}}</td>
+              <td>{{Mana}}</td>
+            </tr>
+            <tr>
+              <td>DPS</td>
+              <td>{{Tier_1_DPS}}</td>
+              <td>{{Tier_2_DPS}}</td>
+              <td>{{Tier_3_DPS}}</td>
+            </tr>
+            <tr>
+              <td>Damage</td>
+              <td>{{Tier_1_AD_MIN}}/{{Tier_1_AD_Max}}</td>
+              <td>{{Tier_2_AD_MIN}}/{{Tier_2_AD_Max}}</td>
+              <td>{{Tier_3_AD_MIN}}/{{Tier_3_AD_Max}}</td>
+            </tr>
+            <tr>
+              <td>Attack Speed</td>
+              <td>{{Tier_1_Attack_Rate}}</td>
+              <td>{{Tier_1_Attack_Rate}}</td>
+              <td>{{Tier_1_Attack_Rate}}</td>
+            </tr>
+            <tr>
+              <td>Move Speed</td>
+              <td>{{Move_Speed}}</td>
+              <td>{{Move_Speed}}</td>
+              <td>{{Move_Speed}}</td>
+            </tr>
+            <tr>
+              <td>Attack Range</td>
+              <td>{{Attack_Range}}</td>
+              <td>{{Attack_Range}}</td>
+              <td>{{Attack_Range}}</td>
+            </tr>
+            <tr>
+              <td>Magic Resist</td>
+              <td>{{Tier_1_Magic_Resist}}</td>
+              <td>{{Tier_2_Magic_Resist}}</td>
+              <td>{{Tier_3_Magic_Resist}}</td>
+            </tr>
+            <tr>
+              <td>Armor</td>
+              <td>{{Tier_1_Armor}}</td>
+              <td>{{Tier_2_Armor}}</td>
+              <td>{{Tier_3_Armor}}</td>
+            </tr>
+            <tr>
+              <td>Health Regen</td>
+              <td>{{Tier_1_Health_Regen}}</td>
+              <td>{{Tier_2_Health_Regen}}</td>
+              <td>{{Tier_3_Health_Regen}}</td>
+            </tr>
+          </tbody>
+        </template>
+      </v-simple-table>
+    </v-card-text>
   </v-card>
 </template>
 
