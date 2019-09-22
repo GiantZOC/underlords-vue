@@ -1,0 +1,11 @@
+query items{
+  items: getItems {
+    _id
+    name
+    img
+    description
+    tier
+    type
+    flavortext
+  }
+}

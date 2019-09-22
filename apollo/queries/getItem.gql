@@ -1,0 +1,11 @@
+query($itemId: ID!) {
+    Item: getItem(itemId: $itemId) {
+    _id
+    name
+    img
+    description
+    tier
+    type
+    flavortext
+  }
+}
