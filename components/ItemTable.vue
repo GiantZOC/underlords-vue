@@ -1,16 +1,16 @@
 <template>
   <div>
-    <div v-if="$apollo.loading">Loading...</div>
-
     <v-select
+    style="max-width: 200px"
       v-model="selectedTier"
       :items="tiers"
       label="Filter by Tier"
     ></v-select>
+    <div v-if="$apollo.loading">Loading...</div>
     <!-- prepend-inner-icon="Tier" -->
     <v-data-table
       :headers="itemsheader"
-      :items="items"
+      :items="filteredItems"
       sort-by="tier"
       class="elevation-1"
       :disable-pagination="true"
@@ -90,13 +90,13 @@ export default {
   },
   computed: {
     // https://stackoverflow.com/questions/45672145/how-do-i-use-custom-filter-prop-in-data-tables-in-vuetify-or-how-do-i-create
-    // filteredItems() {
-    //   return this.items.filter(i => {
-    //     return (
-    //       this.selectedTier == '' || i.tier.toString() === this.selectedTier
-    //     )
-    //   })
-    // }
+    filteredItems() {
+      return this.items.filter(i => {
+        return (
+          this.selectedTier == '' || i.tier.toString() === this.selectedTier
+        )
+      })
+    }
   }
 }
 </script>
