@@ -13,19 +13,20 @@
       </div>
     </v-img>
 
-    <v-card dark>
+    <v-card v-for="Ability in Abilities" v-bind:key="Ability.Name" dark>
       <v-list-item three-line>
         <v-list-item-avatar size="125" tile>
           <v-img
             class="hero_image"
-            :src="require(`~/static${Ability_Image}`)"
-            :srcset="require(`~/static${Ability_Image}`).srcSet"
-            :lazy-src="require(`~/static${Ability_Image}`).placeholder"
+            :src="require(`~/static${Ability.Ability_Image}`)"
+            :srcset="require(`~/static${Ability.Ability_Image}`).srcSet"
+            :lazy-src="require(`~/static${Ability.Ability_Image}`).placeholder"
           ></v-img>
         </v-list-item-avatar>
 
         <v-list-item-content class="align-self-start">
-          <v-list-item-subtitle v-text="Description" class="text--primary"></v-list-item-subtitle>
+          <v-list-item-title v-text="Ability.Ability" class="text--primary"></v-list-item-title>
+          <v-list-item-subtitle v-text="Ability.Description" class="text--primary"></v-list-item-subtitle>
         </v-list-item-content>
       </v-list-item>
     </v-card>
@@ -41,133 +42,23 @@ export default {
       type: String,
       required: true
     },
-    Alliances: [String],
-    Tier: {
-      type: String,
-      required: true
-    },
-    Tier_1_Health: {
-      type: String,
-      required: true
-    },
-    Tier_2_Health: {
-      type: String,
-      required: true
-    },
-    Tier_3_Health: {
-      type: String,
-      required: true
-    },
-    Mana: {
-      type: String
-    },
-    Tier_1_DPS: {
-      type: String,
-      required: true
-    },
-    Tier_2_DPS: {
-      type: String,
-      required: true
-    },
-    Tier_3_DPS: {
-      type: String,
-      required: true
-    },
-    Tier_1_AD_MIN: {
-      type: String,
-      required: true
-    },
-    Tier_1_AD_Max: {
-      type: String,
-      required: true
-    },
-    Tier_2_AD_MIN: {
-      type: String,
-      required: true
-    },
-    Tier_2_AD_Max: {
-      type: String,
-      required: true
-    },
-    Tier_3_AD_MIN: {
-      type: String,
-      required: true
-    },
-    Tier_3_AD_Max: {
-      type: String,
-      required: true
-    },
-    Tier_1_Attack_Rate: {
-      type: String,
-      required: true
-    },
-    Tier_2_Attack_Rate: {
-      type: String,
-      required: true
-    },
-    Tier_3_Attack_Rate: {
-      type: String,
-      required: true
-    },
-    Move_Speed: {
-      type: String,
-      required: true
-    },
-    Attack_Range: {
-      type: String,
-      required: true
-    },
-    Tier_1_Magic_Resist: {
-      type: String,
-      required: true
-    },
-    Tier_2_Magic_Resist: {
-      type: String,
-      required: true
-    },
-    Tier_3_Magic_Resist: {
-      type: String,
-      required: true
-    },
-    Tier_1_Armor: {
-      type: String,
-      required: true
-    },
-    Tier_2_Armor: {
-      type: String,
-      required: true
-    },
-    Tier_2_Armor: {
-      type: String,
-      required: true
-    },
-    Tier_1_Health_Regen: {
-      type: String,
-      required: true
-    },
-    Tier_2_Health_Regen: {
-      type: String,
-      required: true
-    },
-    Tier_3_Health_Regen: {
-      type: String,
-      required: true
-    },
     Hero_Image: {
       type: String,
       required: true
     },
-    Ability_Image: {
-      type: String,
-      required: true
-    },
-    Description: {
-      type: String,
-      required: true
-    },
-    Lore_Text: {
-      type: String,
-      required: true
+    Abilities:{
+      Ability: {
+        type: String,
+        required: true
+      },
+      Ability_Image: {
+        type: String,
+        required: true
+      },
+      Description: {
+        type: String,
+        required: true
+      }
     }
   }
 }

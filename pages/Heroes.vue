@@ -8,6 +8,7 @@
 
 <script>
 import HeroCard from '~/components/HeroCard.vue'
+import getHeroes from '~/apollo/queries/getHeroes'
 
 export default {
   name: 'Heroes',
@@ -18,7 +19,12 @@ export default {
     return {
       Heroes:[]
     }
-  }
+  },
+  apollo: {
+    Heroes: {
+      query: getHeroes
+    }
+  },
 }
 </script>
 

@@ -1,0 +1,11 @@
+query heroes{
+  Heroes: getHeroes {
+    Name
+    Hero_Image
+    Abilities{
+        Ability
+        Ability_Image
+        Description
+    }
+  }
+}
