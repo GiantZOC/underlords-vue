@@ -1,5 +1,6 @@
 query heroes{
   Heroes: getHeroes {
+    _id
     Name
     Hero_Image
     Abilities{

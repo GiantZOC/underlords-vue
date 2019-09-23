@@ -1,5 +1,5 @@
-query hero{
-  Hero: getHero {
+query ($heroId: ID!){
+  Hero: getHero(heroId: $heroId) {
     Name
     Alliances
     Tier

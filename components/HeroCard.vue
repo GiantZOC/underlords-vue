@@ -1,5 +1,7 @@
 <template>
+
   <v-card>
+    <NuxtLink :to="`Hero/${_id}`">
     <v-img
       class="hero_image"
       :src="require(`~/static${Hero_Image}`)"
@@ -12,7 +14,7 @@
         </v-card-title>
       </div>
     </v-img>
-
+    </NuxtLink>
     <v-card v-for="Ability in Abilities" v-bind:key="Ability.Name" dark>
       <v-list-item three-line>
         <v-list-item-avatar size="125" tile>
@@ -31,6 +33,7 @@
       </v-list-item>
     </v-card>
   </v-card>
+
 </template>
 
 
@@ -38,6 +41,10 @@
 <script>
 export default {
   props: {
+    _id: {
+      type: String,
+      required: true
+    },
     Name: {
       type: String,
       required: true
