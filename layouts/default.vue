@@ -42,6 +42,7 @@
       :fixed="fixed"
       app
       :absolute="true"
+      inset
     >
       <span class="caption">Game content and materials are trademarks and copyrights of their respective publisher and its licensors. All rights reserved.
 This site is not affiliated with the game publisher.</span>
@@ -53,7 +54,7 @@ This site is not affiliated with the game publisher.</span>
 export default {
   data () {
     return {
-      clipped: false,
+      clipped: true,
       drawer: true,
       fixed: false,
       items: [
