@@ -102,34 +102,24 @@ export default {
           to: '/'
         },
         {
-          icon: 'mdi-chart-bubble',
+          icon: 'mdi-account-group',
           title: 'Alliances',
           to: '/Alliances'
         },
         {
-          icon: 'mdi-chart-bubble',
+          icon: 'mdi-account',
           title: 'Heroes',
           to: '/Heroes'
         },
         {
-          icon: 'mdi-chart-bubble',
+          icon: 'mdi-treasure-chest',
           title: 'Items',
           to: '/Items'
         },
         {
-          icon: 'mdi-chart-bubble',
+          icon: 'mdi-dice-6',
           title: 'Loot Table',
           to: '/LootTable'
-        },
-        {
-          icon: 'mdi-chart-bubble',
-          title: 'Team Builder',
-          to: '/TeamBuilder'
-        },
-        {
-          icon: 'mdi-chart-bubble',
-          title: 'Roller',
-          to: '/Roller'
         }
         
       ],
@@ -141,3 +131,74 @@ export default {
   }
 }
 </script>
+
+<style>
+
+.AllianceCard_UnitCountContainer {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 40px;
+    align-content: flex-start;
+    width: 20%;
+    vertical-align: middle;
+    margin:5px
+  }
+  
+  .AllianceCard_Unit {
+    box-sizing: border-box;
+    height: 45%;
+    width: 10px;
+    border: 1px solid grey;
+    margin: 1px;
+    border-radius: 3px;
+  
+  }
+  
+  .AllianceCard_Effect {
+    display: inline-block;
+    width: 80%;
+    vertical-align: middle;
+  }
+  
+  .v-avatar {
+    border-radius: 0px;
+  }
+
+  .title_blur {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: inherit;
+    background-attachment: fixed;
+    overflow: hidden;
+  }
+  .title_blur::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    background: inherit;
+    background-attachment: fixed;
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+  }
+  .title_blur::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .title_blur > .hero_title > h3 {
+    margin: 0;
+    color: white;
+    position: relative;
+    z-index: 1;
+  }
+</style>
