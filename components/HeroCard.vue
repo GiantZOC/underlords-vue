@@ -12,9 +12,9 @@
         <v-card-title class="hero_title align-end fill-height" style="text-shadow: 0 1px 0 black;">
           <h3>{{Name}} <v-avatar v-for="alliance in Alliances" v-bind:key="alliance">
             <v-img
-              :src="require(`~/static/images/alliances/${alliance.toLowerCase().replace(/\s/g, '')}.png`)"
-              :srcset="require(`~/static/images/alliances/${alliance.toLowerCase().replace(/\s/g, '')}.png`).srcSet"
-              :lazy-src="require(`~/static/images/alliances/${alliance.toLowerCase().replace(/\s/g, '')}.png`).placeholder"
+              :src="require(`~/static/images/alliances/${alliance.name.toLowerCase().replace(/\s/g, '')}.png`)"
+              :srcset="require(`~/static/images/alliances/${alliance.name.toLowerCase().replace(/\s/g, '')}.png`).srcSet"
+              :lazy-src="require(`~/static/images/alliances/${alliance.name.toLowerCase().replace(/\s/g, '')}.png`).placeholder"
             ></v-img>
           </v-avatar></h3>
         </v-card-title>
@@ -52,8 +52,10 @@ export default {
       required: true
     },
     Alliances:{
-      type: [String],
-      required: true
+      name:{
+        type: String,
+        required: true
+      }
     },
     Name: {
       type: String,

@@ -5,9 +5,9 @@
         {{Hero.Name}}
         <v-avatar v-for="alliance in Hero.Alliances" v-bind:key="alliance">
           <v-img
-            :src="require(`~/static/images/alliances/${alliance.toLowerCase()}.png`)"
-            :srcset="require(`~/static/images/alliances/${alliance.toLowerCase()}.png`).srcSet"
-            :lazy-src="require(`~/static/images/alliances/${alliance.toLowerCase()}.png`).placeholder"
+            :src="require(`~/static/images/alliances/${alliance.name.toLowerCase()}.png`)"
+            :srcset="require(`~/static/images/alliances/${alliance.name.toLowerCase()}.png`).srcSet"
+            :lazy-src="require(`~/static/images/alliances/${alliance.name.toLowerCase()}.png`).placeholder"
           ></v-img>
         </v-avatar>
       </h1>

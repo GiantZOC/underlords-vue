@@ -1,7 +1,9 @@
 query ($heroId: ID!){
   Hero: getHero(heroId: $heroId) {
     Name
-    Alliances
+    Alliances{
+      name
+    }
     Tier
     Tier_1_Health
     Tier_2_Health
@@ -30,6 +32,7 @@ query ($heroId: ID!){
     Tier_1_Health_Regen
     Tier_2_Health_Regen
     Tier_3_Health_Regen
+    Filename
     Hero_Image
     Abilities{
         Ability

@@ -4,7 +4,10 @@ query alliances{
     name
     title
     color
-    unit_names
+    heroes{
+      Name
+      Filename
+    }
     alliance_bonus{
         unit_count
         description

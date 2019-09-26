@@ -39,11 +39,11 @@
     <v-card-text>
       <v-container fluid>
       <v-row>
-        <v-col v-for="unit in unit_names" :key="unit" cols="3" sm="4">
+        <v-col v-for="hero in heroes" :key="hero._id" cols="3" sm="4">
           <v-img
-            :src="`~/static/images/portraits/npc_dota_hero_${unit}_png.png`"
-            :srcset="require(`~/static/images/portraits/npc_dota_hero_${unit}_png.png`).srcSet"
-            :lazy-src="require(`~/static/images/portraits/npc_dota_hero_${unit}_png.png`).placeholder"
+            :src="`~/static/images/portraits/npc_dota_hero_${hero.Filename}_png.png`"
+            :srcset="require(`~/static/images/portraits/npc_dota_hero_${hero.Filename}_png.png`).srcSet"
+            :lazy-src="require(`~/static/images/portraits/npc_dota_hero_${hero.Name.Filename}_png.png`).placeholder"
             
           ></v-img>
         </v-col>
@@ -68,9 +68,19 @@ export default {
       type: String,
       required: true
     },
-    unit_names: {
-      type: [String],
-      required: true
+    heroes: {
+      _id:{
+        type: String,
+        required: true
+      },
+      Name: {
+        type: String,
+        required: true
+      },
+      Filename: {
+        type: String,
+        required: true
+      }
     },
     alliance_max_bonus_count: {
       //2, 4, 6

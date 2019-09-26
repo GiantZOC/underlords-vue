@@ -1,10 +1,13 @@
-query ($allianceName: String!){
-  Alliance: getAllianceByName(allianceName: $allianceName) {
+query {
+  Alliance: getAllianceByName(allianceName: "demonhunter") {
     _id
     name
     title
     color
-    unit_names
+    heroes{
+      Name
+      Filename
+    }
     alliance_bonus{
         unit_count
         description
