@@ -7,9 +7,9 @@
       style="margin-right:0px"
     >
         <v-img
-          :src="require(`~/static/images/icons/yo.png`)"
-          :srcset="require(`~/static/images/icons/yo.png`).srcSet"
-          :lazy-src="require(`~/static/images/icons/yo.png`).placeholder"
+          :src="require(`~/static/images/yo.png`)"
+          :srcset="require(`~/static/images/yo.png`).srcSet"
+          :lazy-src="require(`~/static/images/yo.png`).placeholder"
         ></v-img>
       </v-avatar>Losing to a neutral creep wave results in being offered rewards from the previous creep wave's tier (Losing to the first creep wave has no penalty)
     </v-banner>
@@ -173,10 +173,6 @@ export default {
 </script>
 
 <style>
-.v-avatar {
-  border-radius: 0px;
-}
-
 div.v-avatar.v-banner__icon {
     margin-right: 0px;
 }
