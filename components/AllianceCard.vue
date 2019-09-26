@@ -1,5 +1,5 @@
 <template>
-  <v-card max-width="400px">
+  <v-card max-width="450px">
     <v-list>
       <v-list-item>
         <v-list-item-avatar>
