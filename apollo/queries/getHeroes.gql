@@ -2,6 +2,7 @@ query heroes{
   Heroes: getHeroes {
     _id
     Name
+    Alliances
     Hero_Image
     Abilities{
         Ability

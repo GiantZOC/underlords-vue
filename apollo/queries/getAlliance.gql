@@ -1,0 +1,15 @@
+query ($allianceId: ID!){
+  Alliance: getAlliance(allianceId: $allianceId) {
+    _id
+    name
+    title
+    color
+    unit_names
+    alliance_bonus{
+        unit_count
+        description
+    }
+    alliance_max_bonus_count
+    height
+  }
+}
