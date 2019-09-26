@@ -1,5 +1,5 @@
 <template>
-  <v-card>
+  <v-card max-width="400px">
     <v-list>
       <v-list-item>
         <v-list-item-avatar>
@@ -68,13 +68,25 @@ export default {
       type: String,
       required: true
     },
-    unit_names: [String],
+    unit_names: {
+      type: [String],
+      required: true
+    },
     alliance_max_bonus_count: {
       //2, 4, 6
       type: Number,
       required: true
     },
-    alliance_bonus: [Object],
+    alliance_bonus:{
+      unit_count: {
+        type: Number,
+        required: true
+      },
+      description: {
+        type: String,
+        required: true
+      }
+    },
     height: {
       type: String,
       required: true
@@ -82,3 +94,37 @@ export default {
   }
 }
 </script>
+
+<style>
+
+.AllianceCard_UnitCountContainer {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 40px;
+    align-content: flex-start;
+    width: 20%;
+    vertical-align: middle;
+    margin:5px
+  }
+  
+  .AllianceCard_Unit {
+    box-sizing: border-box;
+    height: 45%;
+    width: 10px;
+    border: 1px solid grey;
+    margin: 1px;
+    border-radius: 3px;
+  
+  }
+  
+  .AllianceCard_Effect {
+    display: inline-block;
+    width: 80%;
+    vertical-align: middle;
+  }
+  
+  .v-avatar {
+    border-radius: 0px;
+  }
+</style>

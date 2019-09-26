@@ -10,7 +10,13 @@
     >
       <div class="title_blur">
         <v-card-title class="hero_title align-end fill-height" style="text-shadow: 0 1px 0 black;">
-          <h3>{{Name}}</h3>
+          <h3>{{Name}} <v-avatar v-for="alliance in Alliances" v-bind:key="alliance">
+            <v-img
+              :src="require(`~/static/images/alliances/${alliance.toLowerCase().replace(/\s/g, '')}.png`)"
+              :srcset="require(`~/static/images/alliances/${alliance.toLowerCase().replace(/\s/g, '')}.png`).srcSet"
+              :lazy-src="require(`~/static/images/alliances/${alliance.toLowerCase().replace(/\s/g, '')}.png`).placeholder"
+            ></v-img>
+          </v-avatar></h3>
         </v-card-title>
       </div>
     </v-img>
@@ -45,6 +51,10 @@ export default {
       type: String,
       required: true
     },
+    Alliances:{
+      type: [String],
+      required: true
+    },
     Name: {
       type: String,
       required: true
@@ -72,40 +82,41 @@ export default {
 </script>
 
 <style>
-.title_blur {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background: inherit;
-  background-attachment: fixed;
-  overflow: hidden;
-}
-.title_blur::before {
-  content: '';
-  position: absolute;
-  top: -20px;
-  left: 0;
-  width: 200%;
-  height: 200%;
-  background: inherit;
-  background-attachment: fixed;
-  -webkit-filter: blur(4px);
-  filter: blur(4px);
-}
-.title_blur::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-}
-.title_blur > .hero_title > h3 {
-  margin: 0;
-  color: white;
-  position: relative;
-  z-index: 1;
-}
+
+  .title_blur {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: inherit;
+    background-attachment: fixed;
+    overflow: hidden;
+  }
+  .title_blur::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    background: inherit;
+    background-attachment: fixed;
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+  }
+  .title_blur::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .title_blur > .hero_title > h3 {
+    margin: 0;
+    color: white;
+    position: relative;
+    z-index: 1;
+  }
 </style>

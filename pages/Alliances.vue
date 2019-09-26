@@ -17,7 +17,7 @@ export default {
   },
   data() {
     return {
-      Alliances: []
+      Alliances: {}
     }
   },
   apollo: {
@@ -60,5 +60,3 @@ export default {
   border-radius: 0px;
 }
 </style>
-</style>
-
