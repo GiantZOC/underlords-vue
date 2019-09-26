@@ -72,12 +72,6 @@ export default {
           align: 'left',
           sortable: true,
           value: 'type'
-        },
-        {
-          text: 'Flavor',
-          align: 'left',
-          sortable: false,
-          value: 'flavortext'
         }
       ],
       items: []
