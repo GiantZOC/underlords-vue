@@ -2,17 +2,23 @@
   <v-card max-width="450px">
     <v-list>
       <v-list-item>
+        
         <v-list-item-avatar>
+          
           <v-img
             :src="require(`~/static/images/alliances/${name}.png`)"
             :srcset="require(`~/static/images/alliances/${name}.png`).srcSet"
             :lazy-src="require(`~/static/images/alliances/${name}.png`).placeholder"
           ></v-img>
+          
         </v-list-item-avatar>
 
         <v-list-item-content>
+          <NuxtLink :to="`../Alliance/${name}`">
           <h3>{{title}}</h3>
+          </NuxtLink>
         </v-list-item-content>
+        
       </v-list-item>
 
       <v-list-item v-for="bonus in alliance_bonus" v-bind:key="bonus.unit_count">
@@ -40,12 +46,14 @@
       <v-container fluid>
       <v-row>
         <v-col v-for="hero in heroes" :key="hero._id" cols="3" sm="4">
+          <NuxtLink :to="`/Hero/${hero._id}`">
           <v-img
             :src="`~/static/images/portraits/npc_dota_hero_${hero.Filename}_png.png`"
             :srcset="require(`~/static/images/portraits/npc_dota_hero_${hero.Filename}_png.png`).srcSet"
             :lazy-src="require(`~/static/images/portraits/npc_dota_hero_${hero.Name.Filename}_png.png`).placeholder"
             
           ></v-img>
+          </NuxtLink>
         </v-col>
       </v-row>
       </v-container>
