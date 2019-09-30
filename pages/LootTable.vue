@@ -6,9 +6,15 @@
 import LootTable from '~/components/LootTable.vue'
 
 export default {
-  name: 'Items',
+  name: 'Loot Rounds',
   components: {
     LootTable
   },    
+  head() {
+    return {
+      title: 'Loot Rounds'
+    }
+  }
+    
 }
 </script>

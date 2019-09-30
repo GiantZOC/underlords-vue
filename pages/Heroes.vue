@@ -25,6 +25,12 @@ export default {
       query: getHeroes
     }
   },
+  head() {
+    return {
+      title: 'Heroes'
+    }
+  }
+    
 }
 </script>
 

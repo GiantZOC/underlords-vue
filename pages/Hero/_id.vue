@@ -1,18 +1,20 @@
 <template>
   <v-card v-if="Hero" class="flex md12 sm12 lg8" dark>
-    <div >
+    <div>
     <v-card-title>
-      <h1>{{Hero.Name}}</h1>
-      <div v-for="alliance in Hero.Alliances" v-bind:key="alliance">
-        <NuxtLink :to="`/Alliance/${alliance.name}`">
-          <v-avatar>
-            <v-img
-              :src="require(`~/static/images/alliances/${alliance.name.toLowerCase()}.png`)"
-              :srcset="require(`~/static/images/alliances/${alliance.name.toLowerCase()}.png`).srcSet"
-              :lazy-src="require(`~/static/images/alliances/${alliance.name.toLowerCase()}.png`).placeholder"
-            ></v-img>
-          </v-avatar>
-        </NuxtLink>
+      <h1 class="d-flex">{{Hero.Name}}</h1>
+      <div class="d-flex flex-nowrap ml-6">
+        <div v-for="alliance in Hero.Alliances" v-bind:key="alliance">
+          <NuxtLink :to="`/Alliance/${alliance.name}`">
+            <v-avatar>
+              <v-img
+                :src="require(`~/static/images/alliances/${alliance.name.toLowerCase()}.png`)"
+                :srcset="require(`~/static/images/alliances/${alliance.name.toLowerCase()}.png`).srcSet"
+                :lazy-src="require(`~/static/images/alliances/${alliance.name.toLowerCase()}.png`).placeholder"
+              ></v-img>
+            </v-avatar>
+          </NuxtLink>
+        </div>
       </div>
     </v-card-title>
     <div class="layout wrap">

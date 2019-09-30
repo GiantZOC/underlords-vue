@@ -10,5 +10,11 @@ export default {
   components: {
     ItemTable
   },    
+  head() {
+    return {
+      title: 'Items'
+    }
+  }
+    
 }
 </script>

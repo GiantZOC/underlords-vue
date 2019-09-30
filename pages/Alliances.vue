@@ -25,6 +25,11 @@ export default {
       query: getAlliances
     }
   },
+  head() {
+    return {
+      title: 'Alliances'
+    }
+  }
 }
 </script>
 
