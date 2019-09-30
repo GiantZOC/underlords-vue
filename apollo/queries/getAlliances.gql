@@ -5,6 +5,7 @@ query alliances{
     title
     color
     heroes{
+      _id
       Name
       Filename
     }

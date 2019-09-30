@@ -1,10 +1,11 @@
-query {
-  Alliance: getAllianceByName(allianceName: "demonhunter") {
+query ($allianceName: String!){
+  Alliance: getAllianceByName(allianceName: $allianceName) {
     _id
     name
     title
     color
     heroes{
+      _id
       Name
       Filename
     }
