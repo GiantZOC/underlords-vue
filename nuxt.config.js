@@ -6,8 +6,8 @@ export default {
   ** Headers of the page
   */
   head: {
-    titleTemplate: '%s - ' + process.env.npm_package_name,
-    title: process.env.npm_package_name || '',
+    titleTemplate: '%s - Underlords Stats',
+    title: 'Underlords Stats',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -42,8 +42,19 @@ export default {
   */
   modules: [
     'nuxt-responsive-loader',
-    '@nuxtjs/apollo'
+    '@nuxtjs/apollo',
   ],
+  /*
+   ** nuxt-responsive-loader settings
+   */
+  responsiveLoader: {
+    name: 'img/[hash:7]-[width].[ext]',
+    min: 64, // minimum image width generated
+    max: 1080, // maximum image width generated
+    steps: 5, // five sizes per image will be generated
+    placeholder: true, // no placeholder will be generated
+    quality: 90, // images are compressed with medium quality
+  },
   /*
   ** vuetify module configuration
   ** https://github.com/nuxt-community/vuetify-module

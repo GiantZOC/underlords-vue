@@ -80,7 +80,7 @@ export default {
         },
         {
           icon: 'mdi-dice-6',
-          title: 'Loot Table',
+          title: 'Loot Rounds',
           to: '/LootTable'
         }
         
@@ -88,7 +88,7 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Underlords '
+      title: 'Underlords Stats'
     }
   }
 }

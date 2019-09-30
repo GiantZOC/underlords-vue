@@ -1,7 +1,7 @@
 {
-  "name": "underlords-vue",
+  "name": "UnderlordsStats",
   "version": "1.0.0",
-  "description": "Frontend for an underlords website built with vue",
+  "description": "An Underlords reference site",
   "author": "steven",
   "private": true,
   "scripts": {
