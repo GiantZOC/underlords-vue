@@ -9,7 +9,7 @@
       >
         <div class="title_blur">
           <v-card-title class="hero_title align-end fill-height" style="text-shadow: 0 1px 0 black;">
-          <h3>{{Name}} <v-avatar v-for="alliance in alliances" v-bind:key="alliance">
+          <h3>{{name}} <v-avatar v-for="alliance in alliances" v-bind:key="alliance.name">
             <v-img
               :src="require(`~/static/images/alliances/${alliance.name.toLowerCase().replace(/\s/g, '')}.png`)"
               :srcset="require(`~/static/images/alliances/${alliance.name.toLowerCase().replace(/\s/g, '')}.png`).srcSet"

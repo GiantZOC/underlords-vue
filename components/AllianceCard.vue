@@ -1,6 +1,6 @@
 <template>
   <v-card max-width="450px">
-    <v-list>
+    <v-list style="padding: 8px 0px 0px 0px">
       <v-list-item>
         
         <v-list-item-avatar>
@@ -9,6 +9,7 @@
             :src="require(`~/static/images/alliances/${name}.png`)"
             :srcset="require(`~/static/images/alliances/${name}.png`).srcSet"
             :lazy-src="require(`~/static/images/alliances/${name}.png`).placeholder"
+            :alt=name
           ></v-img>
           
         </v-list-item-avatar>
@@ -21,19 +22,19 @@
         
       </v-list-item>
 
-      <v-list-item v-for="bonus in alliance_bonus" v-bind:key="bonus.unit_count">
+      <v-list-item v-for="bonus in alliance_bonus" v-bind:key="bonus.unit_count + name">
         <div class="AllianceCard_UnitCountContainer">
           <!-- Filled in Boxes -->
           <div
-            v-for="unit in bonus.unit_count"
-            v-bind:key="unit"
+            v-for="n in bonus.unit_count"
+            v-bind:key="n + bonus.unit_count"
             class="AllianceCard_Unit"
             v-bind:style="{ backgroundColor: color, height: height}"
           ></div>
           <!-- Empty Boxes -->
           <div
             v-for="n in alliance_max_bonus_count-bonus.unit_count"
-            v-bind:key="n"
+            v-bind:key="n + 'max'"
             class="AllianceCard_Unit"
             v-bind:style="{ height: height}"
           ></div>
@@ -42,7 +43,6 @@
           </v-list-item-content>        
       </v-list-item>
     </v-list>
-    <v-card-text>
       <v-container fluid>
       <v-row>
         <v-col v-for="hero in heroes" :key="hero._id" cols="3" sm="4">
@@ -51,13 +51,12 @@
             :src="`~/static/images/portraits/npc_dota_hero_${hero.filename}_png.png`"
             :srcset="require(`~/static/images/portraits/npc_dota_hero_${hero.filename}_png.png`).srcSet"
             :lazy-src="require(`~/static/images/portraits/npc_dota_hero_${hero.filename}_png.png`).placeholder"
-            
+            :alt=hero.name
           ></v-img>
           </NuxtLink>
         </v-col>
       </v-row>
       </v-container>
-    </v-card-text>
   </v-card>
 </template>
 
