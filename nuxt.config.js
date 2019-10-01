@@ -8,6 +8,10 @@ export default {
   head: {
     titleTemplate: '%s - Underlords Stats',
     title: 'Underlords Stats',
+    noscript: [{ innerHTML: 'Sorry, this website requires JavaScript to work correctly.' }],
+    htmlAttrs: {
+      lang: 'en',
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
