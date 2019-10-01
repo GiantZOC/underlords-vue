@@ -4,7 +4,7 @@
     <v-card-title>
       <h1 class="d-flex">{{Hero.name}}</h1>
       <div class="d-flex flex-nowrap ml-6">
-        <div v-for="alliance in Hero.alliances" v-bind:key="alliance">
+        <div v-for="alliance in Hero.alliances" v-bind:key="alliance.name">
           <NuxtLink :to="`/Alliance/${alliance.name}`">
             <v-avatar>
               <v-img
