@@ -1,5 +1,5 @@
 <template>
-    <AllianceCard v-bind="Alliance"></AllianceCard>
+    <AllianceCard v-if="Alliance" v-bind="Alliance"></AllianceCard>
 </template>
 
 <script>
