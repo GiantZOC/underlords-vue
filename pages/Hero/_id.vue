@@ -2,9 +2,9 @@
   <v-card v-if="Hero" class="flex md12 sm12 lg8" dark>
     <div>
     <v-card-title>
-      <h1 class="d-flex">{{Hero.Name}}</h1>
+      <h1 class="d-flex">{{Hero.name}}</h1>
       <div class="d-flex flex-nowrap ml-6">
-        <div v-for="alliance in Hero.Alliances" v-bind:key="alliance">
+        <div v-for="alliance in Hero.alliances" v-bind:key="alliance">
           <NuxtLink :to="`/Alliance/${alliance.name}`">
             <v-avatar>
               <v-img
@@ -21,11 +21,11 @@
       <div class="flex md12 sm12 lg6 my-border">
         <v-card class="no-shadow">
           <v-img
-            :src="require(`~/static${Hero.Hero_Image}`)"
-            :srcset="require(`~/static${Hero.Hero_Image}`).srcSet"
-            :lazy-src="require(`~/static${Hero.Hero_Image}`).placeholder"
+            :src="require(`~/static${Hero.hero_image}`)"
+            :srcset="require(`~/static${Hero.hero_image}`).srcSet"
+            :lazy-src="require(`~/static${Hero.hero_image}`).placeholder"
           ></v-img>
-          <div v-if="Hero.Ace_Ability">
+          <div v-if="Hero.ace_ability">
             <v-card-title>
               <v-avatar>
                 <v-img
@@ -34,34 +34,34 @@
                   :lazy-src="require(`~/static/images/Ace_icon.png`).placeholder"
                 ></v-img>
               </v-avatar>
-              {{Hero.Ace_Ability}}
+              {{Hero.ace_ability}}
             </v-card-title>
-            <v-card-text>{{Hero.Ace_Description}}</v-card-text>
+            <v-card-text>{{Hero.ace_description}}</v-card-text>
           </div>
           <v-card
             class="no-shadow"
-            v-for="Ability in Hero.Abilities"
-            v-bind:key="Ability.Name"
+            v-for="ability in Hero.abilities"
+            v-bind:key="ability.name"
             dark
           >
             <v-list-item three-line>
               <v-list-item-avatar size="125" tile>
                 <v-img
                   class="hero_image"
-                  :src="require(`~/static${Ability.Ability_Image}`)"
-                  :srcset="require(`~/static${Ability.Ability_Image}`).srcSet"
-                  :lazy-src="require(`~/static${Ability.Ability_Image}`).placeholder"
+                  :src="require(`~/static${ability.ability_image}`)"
+                  :srcset="require(`~/static${ability.ability_image}`).srcSet"
+                  :lazy-src="require(`~/static${ability.ability_image}`).placeholder"
                 ></v-img>
               </v-list-item-avatar>
 
               <v-list-item-content class="align-self-start">
-                <v-list-item-title v-text="Ability.Ability" class="text--primary"></v-list-item-title>
-                <v-list-item-subtitle v-text="Ability.Description" class="text--primary"></v-list-item-subtitle>
+                <v-list-item-title v-text="ability.ability" class="text--primary"></v-list-item-title>
+                <v-list-item-subtitle v-text="ability.description" class="text--primary"></v-list-item-subtitle>
               </v-list-item-content>
             </v-list-item>
           </v-card>
-          <div v-if="Hero.Lore_Text">
-            <v-card-text class="font-italic">{{Hero.Lore_Text}}</v-card-text>
+          <div v-if="Hero.lore_text">
+            <v-card-text class="font-italic">{{Hero.lore_text}}</v-card-text>
           </div>
         </v-card>
       </div>
@@ -79,64 +79,64 @@
               <v-col class="subtitle-1 font-weight-bold">
                 Health
               </v-col>
-              <v-col>{{Hero.Tier_1_Health}}</v-col>
-              <v-col>{{Hero.Tier_2_Health}}</v-col>
-              <v-col>{{Hero.Tier_3_Health}}</v-col>
+              <v-col>{{Hero.tier_1_health}}</v-col>
+              <v-col>{{Hero.tier_2_health}}</v-col>
+              <v-col>{{Hero.tier_3_health}}</v-col>
             </v-row>
             <v-row>
               <v-col class="subtitle-1 font-weight-bold">
                 Mana
               </v-col>
-              <v-col>{{Hero.Mana}}</v-col>
-              <v-col>{{Hero.Mana}}</v-col>
-              <v-col>{{Hero.Mana}}</v-col>
+              <v-col>{{Hero.mana}}</v-col>
+              <v-col>{{Hero.mana}}</v-col>
+              <v-col>{{Hero.mana}}</v-col>
             </v-row>
             <v-row>
               <v-col class="subtitle-1 font-weight-bold">DPS</v-col>
-              <v-col>{{Hero.Tier_1_DPS}}</v-col>
-              <v-col>{{Hero.Tier_2_DPS}}</v-col>
-              <v-col>{{Hero.Tier_3_DPS}}</v-col>
+              <v-col>{{Hero.tier_1_dps}}</v-col>
+              <v-col>{{Hero.tier_2_dps}}</v-col>
+              <v-col>{{Hero.tier_3_dps}}</v-col>
             </v-row>
             <v-row>
               <v-col class="subtitle-1 font-weight-bold">Attack Damage</v-col>
-              <v-col>{{Hero.Tier_1_AD_MIN}}-{{Hero.Tier_1_AD_Max}}</v-col>
-              <v-col>{{Hero.Tier_2_AD_MIN}}-{{Hero.Tier_2_AD_Max}}</v-col>
-              <v-col>{{Hero.Tier_3_AD_MIN}}-{{Hero.Tier_3_AD_Max}}</v-col>
+              <v-col>{{Hero.tier_1_ad_min}}-{{Hero.tier_1_ad_max}}</v-col>
+              <v-col>{{Hero.tier_2_ad_min}}-{{Hero.tier_2_ad_max}}</v-col>
+              <v-col>{{Hero.tier_3_ad_min}}-{{Hero.tier_3_ad_max}}</v-col>
             </v-row>
             <v-row>
               <v-col class="subtitle-1 font-weight-bold">Attack Rate</v-col>
-              <v-col>{{Hero.Tier_1_Attack_Rate}}</v-col>
-              <v-col>{{Hero.Tier_2_Attack_Rate}}</v-col>
-              <v-col>{{Hero.Tier_3_Attack_Rate}}</v-col>
+              <v-col>{{Hero.tier_1_attack_rate}}</v-col>
+              <v-col>{{Hero.tier_2_attack_rate}}</v-col>
+              <v-col>{{Hero.tier_3_attack_rate}}</v-col>
             </v-row>
             <v-row>
               <v-col class="subtitle-1 font-weight-bold">Move Speed</v-col>
-              <v-col>{{Hero.Move_Speed}}</v-col>
-              <v-col>{{Hero.Move_Speed}}</v-col>
-              <v-col>{{Hero.Move_Speed}}</v-col>
+              <v-col>{{Hero.move_speed}}</v-col>
+              <v-col>{{Hero.move_speed}}</v-col>
+              <v-col>{{Hero.move_speed}}</v-col>
             </v-row>
             <v-row>
               <v-col class="subtitle-1 font-weight-bold">Magic Resist</v-col>
-              <v-col>{{Hero.Tier_1_Magic_Resist}}</v-col>
-              <v-col>{{Hero.Tier_2_Magic_Resist}}</v-col>
-              <v-col>{{Hero.Tier_3_Magic_Resist}}</v-col>
+              <v-col>{{Hero.tier_1_magic_resist}}</v-col>
+              <v-col>{{Hero.tier_2_magic_resist}}</v-col>
+              <v-col>{{Hero.tier_3_magic_resist}}</v-col>
             </v-row>
             <v-row>
               <v-col class="subtitle-1 font-weight-bold">Armor</v-col>
-              <v-col>{{Hero.Tier_1_Armor}}</v-col>
-              <v-col>{{Hero.Tier_2_Armor}}</v-col>
-              <v-col>{{Hero.Tier_3_Armor}}</v-col>
+              <v-col>{{Hero.tier_1_armor}}</v-col>
+              <v-col>{{Hero.tier_2_armor}}</v-col>
+              <v-col>{{Hero.tier_3_armor}}</v-col>
             </v-row>
             <v-row>
               <v-col class="subtitle-1 font-weight-bold">Health Regen</v-col>
-              <v-col>{{Hero.Tier_1_Health_Regen}}</v-col>
-              <v-col>{{Hero.Tier_2_Health_Regen}}</v-col>
-              <v-col>{{Hero.Tier_3_Health_Regen}}</v-col>
+              <v-col>{{Hero.tier_1_health_regen}}</v-col>
+              <v-col>{{Hero.tier_2_health_regen}}</v-col>
+              <v-col>{{Hero.tier_3_health_regen}}</v-col>
             </v-row>
           </v-card-text>
         </v-card>
       </div>
-      <div v-if="Hero.Ace_Ability" class="flex md12 sm12 lg4">
+      <div v-if="Hero.ace_ability" class="flex md12 sm12 lg4">
         <v-card></v-card>
       </div>
       </div>
@@ -145,21 +145,21 @@
 </template>
 
 <script>
-import getHero from '~/apollo/queries/getHero'
+import getHeroByName from '~/apollo/queries/getHeroByName'
 
 export default {
   apollo: {
     Hero: {
-      query: getHero,
-      prefetch: ({ route }) => ({ heroId: route.params.id }),
+      query: getHeroByName,
+      prefetch: ({ route }) => ({ heroName: route.params.id }),
       variables() {
-        return { heroId: this.$route.params.id }
+        return { heroName: this.$route.params.id }
       }
     }
   },
   head() {
     return {
-      title: this.Hero ? `${this.Hero.Name}` : 'Loading'
+      title: this.Hero ? `${this.Hero.name}` : 'Loading'
     }
   }
 }

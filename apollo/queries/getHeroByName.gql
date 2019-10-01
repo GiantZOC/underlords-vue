@@ -1,5 +1,5 @@
-query ($heroId: ID!){
-  Hero: getHero(heroId: $heroId) {
+query ($heroName: String!){
+  Hero: getHeroByName(heroName: $heroName) {
     name
     alliances{
       name

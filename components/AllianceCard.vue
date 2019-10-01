@@ -46,11 +46,11 @@
       <v-container fluid>
       <v-row>
         <v-col v-for="hero in heroes" :key="hero._id" cols="3" sm="4">
-          <NuxtLink :to="`/Hero/${hero._id}`">
+          <NuxtLink :to="`/Hero/${hero.name}`">
           <v-img
-            :src="`~/static/images/portraits/npc_dota_hero_${hero.Filename}_png.png`"
-            :srcset="require(`~/static/images/portraits/npc_dota_hero_${hero.Filename}_png.png`).srcSet"
-            :lazy-src="require(`~/static/images/portraits/npc_dota_hero_${hero.Name.Filename}_png.png`).placeholder"
+            :src="`~/static/images/portraits/npc_dota_hero_${hero.filename}_png.png`"
+            :srcset="require(`~/static/images/portraits/npc_dota_hero_${hero.filename}_png.png`).srcSet"
+            :lazy-src="require(`~/static/images/portraits/npc_dota_hero_${hero.filename}_png.png`).placeholder"
             
           ></v-img>
           </NuxtLink>
@@ -81,11 +81,11 @@ export default {
         type: String,
         required: true
       },
-      Name: {
+      name: {
         type: String,
         required: true
       },
-      Filename: {
+      filename: {
         type: String,
         required: true
       }

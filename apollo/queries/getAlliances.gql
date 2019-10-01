@@ -6,8 +6,8 @@ query alliances{
     color
     heroes{
       _id
-      Name
-      Filename
+      name
+      filename
     }
     alliance_bonus{
         unit_count

@@ -1,15 +1,15 @@
 query heroes{
   Heroes: getHeroes {
     _id
-    Name
-    Alliances{
+    name
+    alliances{
       name
     }
-    Hero_Image
-    Abilities{
-        Ability
-        Ability_Image
-        Description
+    hero_image
+    abilities{
+        ability
+        ability_image
+        description
     }
   }
 }
