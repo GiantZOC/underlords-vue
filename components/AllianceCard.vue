@@ -15,9 +15,7 @@
         </v-list-item-avatar>
 
         <v-list-item-content>
-          <NuxtLink :to="`../Alliance/${name}`">
           <h3>{{title}}</h3>
-          </NuxtLink>
         </v-list-item-content>
         
       </v-list-item>
