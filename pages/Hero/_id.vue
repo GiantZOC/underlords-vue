@@ -34,9 +34,9 @@
                   :lazy-src="require(`~/static/images/Ace_icon.png`).placeholder"
                 ></v-img>
               </v-avatar>
-              {{Hero.ace_ability}}
+              <div class="pl-2">{{Hero.ace_ability}}</div>
             </v-card-title>
-            <v-card-text>{{Hero.ace_description}}</v-card-text>
+            <v-card-text >{{Hero.ace_description}}</v-card-text>
           </div>
           <v-card
             class="no-shadow"
