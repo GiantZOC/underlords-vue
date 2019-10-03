@@ -24,3 +24,4 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 TODO: Change abilities to object array.  Heroes can have more than 1 ability
 Add Ace abilities, icons, descriptions
 Handle heroes with transformations and summons
+Fix loot round 3 image

@@ -19,7 +19,7 @@
     </v-card-title>
     <div class="layout wrap">
       <div class="flex md12 sm12 lg6 my-border">
-        <v-card class="no-shadow">
+        <v-card flat>
           <v-img
             :src="require(`~/static${Hero.hero_image}`)"
             :srcset="require(`~/static${Hero.hero_image}`).srcSet"
@@ -39,7 +39,7 @@
             <v-card-text >{{Hero.ace_description}}</v-card-text>
           </div>
           <v-card
-            class="no-shadow"
+            flat
             v-for="ability in Hero.abilities"
             v-bind:key="ability.name"
             dark
@@ -66,7 +66,7 @@
         </v-card>
       </div>
       <div class="flex md12 sm12 lg6">
-        <v-card class="no-shadow">
+        <v-card flat>
           <v-card-title>Hero Stats</v-card-title>
           <v-card-text>
             <v-row>
@@ -176,9 +176,5 @@ export default {
 
 .my-border {
   border: 1px solid rgba(0, 0, 0, 0.12);
-}
-
-.no-shadow{
-  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
 }
 </style>

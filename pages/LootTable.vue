@@ -6,13 +6,13 @@
 import LootTable from '~/components/LootTable.vue'
 
 export default {
-  name: 'Loot Rounds',
+  name: 'Loot Table',
   components: {
     LootTable
   },    
   head() {
     return {
-      title: 'Loot Rounds'
+      title: 'Loot Table'
     }
   }
     
