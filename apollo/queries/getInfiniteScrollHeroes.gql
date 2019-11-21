@@ -1,0 +1,18 @@
+query($pageSize: Int!, $pageNum: Int!){
+  infiniteScrollHeroes(pageNum: $pageNum, pageSize: $pageSize){
+    hasMore
+    Heroes {
+        _id
+        name
+        alliances{
+        name
+        }
+        hero_image
+        abilities{
+            ability
+            ability_image
+            description
+        }
+    }
+  }
+}

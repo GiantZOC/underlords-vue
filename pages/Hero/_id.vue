@@ -55,7 +55,7 @@
               </v-list-item-avatar>
 
               <v-list-item-content class="align-self-start">
-                <v-list-item-title v-text="ability.ability" class="text--primary"></v-list-item-title>
+                <v-list-item-title v-text="ability.ability" class="title"></v-list-item-title>
                 <v-list-item-subtitle v-text="ability.description" class="text--primary"></v-list-item-subtitle>
               </v-list-item-content>
             </v-list-item>

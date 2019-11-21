@@ -21,7 +21,44 @@
       </v-img>
     </NuxtLink>
     <v-card v-for="ability in abilities" v-bind:key="ability.name" dark>
-      <v-list-item three-line>
+      <v-row>
+          <v-col md="auto" class="pr-8">
+            <div>
+            <v-img
+              class="hero_image float-xl-left px-4 mx-4"
+              max-width="300px"
+              min-width="150px"
+              aspect-ratio="1"
+              :src="require(`~/static${ability.ability_image}`)"
+              :srcset="require(`~/static${ability.ability_image}`).srcSet"
+              :lazy-src="require(`~/static${ability.ability_image}`).placeholder"
+            ></v-img>
+             <v-card-text class="pa-1 mx-4 title">
+              <div>
+                {{ability.ability}}
+                
+              </div>
+            </v-card-text>
+            <v-card-text class="pa-1 mx-4">
+              {{ability.description}}
+            </v-card-text>
+            </div>
+            <!-- <v-img
+              max-width="300px"
+              min-width="150px"
+              aspect-ratio="1"
+              :src="require(`~/static${round.image}`)"
+              :srcset="require(`~/static${round.image}`).srcSet"
+              :lazy-src="require(`~/static${round.image}`).placeholder"
+            ></v-img> -->
+          </v-col>
+          <v-col md="auto">
+           
+            <!-- <v-card-text>{{round.quote}}</v-card-text> -->
+          </v-col>
+        </v-row>
+
+      <!-- <v-list-item three-line>
         <v-list-item-avatar size="125" tile>
           <v-img
             class="hero_image"
@@ -35,7 +72,7 @@
           <v-list-item-title v-text="ability.ability" class="text--primary"></v-list-item-title>
           <v-list-item-subtitle v-text="ability.description" class="text--primary"></v-list-item-subtitle>
         </v-list-item-content>
-      </v-list-item>
+      </v-list-item> -->
     </v-card>
   </v-card>
 </template>
