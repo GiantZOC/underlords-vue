@@ -15,6 +15,7 @@
       class="elevation-1"
       :disable-pagination="true"
       :hide-default-footer="true"
+      :mobile-breakpoint="0"
     >
       <!-- custom item formatting -->
       <template v-slot:item.img="{ item }">

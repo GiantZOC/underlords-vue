@@ -4,12 +4,14 @@
       <v-row>
         <v-col md="auto">
           <v-img
-            max-width="400"
+            :max-width="imageWidth"
             :src="require(`~/static${Item.img}`)"
             :srcset="require(`~/static${Item.img}`).srcSet"
             :lazy-src="require(`~/static${Item.img}`).placeholder"
           ></v-img>
         </v-col>
+      </v-row>
+      <v-row>
         <v-col>
           <v-list>
             <v-list-item>
@@ -53,6 +55,17 @@ export default {
     return {
       title: this.Item ? `${this.Item.name}` : 'Loading'
     }
-  }
+  },
+  computed: {
+      imageWidth () {
+        switch (this.$vuetify.breakpoint.name) {
+          case 'xs': return '150px'
+          case 'sm': return '225px'
+          case 'md': return '300px'
+          case 'lg': return '300px'
+          case 'xl': return '300px'
+        }
+      },
+    },
 }
 </script>

@@ -21,6 +21,7 @@
       dense
       disable-pagination=true
       hide-default-footer=true
+      mobile-breakpoint=0
     ></v-data-table>
   </div>
 </template>
@@ -175,5 +176,8 @@ export default {
 <style>
 div.v-avatar.v-banner__icon {
     margin-right: 0px;
+}
+.v-avatar {
+  border-radius: 0px;
 }
 </style>

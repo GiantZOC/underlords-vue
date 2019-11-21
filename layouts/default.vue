@@ -82,11 +82,6 @@ export default {
         },
         {
           icon: 'mdi-dice-6',
-          title: 'Loot Table',
-          to: '/LootTable'
-        },
-        {
-          icon: 'mdi-dice-6',
           title: 'Loot Rounds',
           to: '/LootRounds'
         }
