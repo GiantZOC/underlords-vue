@@ -14,7 +14,7 @@
   "dependencies": {
     "@nuxtjs/apollo": "^4.0.0-rc13.1",
     "graphql-tag": "^2.10.1",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.15.8",
     "nuxt-responsive-loader": "^1.0.4"
   },
   "devDependencies": {
